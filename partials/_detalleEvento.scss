@@ -1,0 +1,105 @@
+//_detalleEvento.scss
+
+#detalleEvento {
+	@include breakpoints(tablet){
+		@include flex-basis(88%);
+		padding-right: 1%;
+	}
+}
+
+#dtEvento {
+	margin-bottom: 1em;
+	@include breakpoints(bigPhone) {
+		width: 85%;
+	}
+	& ul {
+		margin-left: 0;
+	}
+	& li {
+		@include display-flex;
+		@include flex-direction(row);
+		@include flex-wrap(wrap);
+		justify-content: flex-end;
+		margin-bottom: 0;
+		&.inscripcionAbierta {
+			justify-content: flex-start;
+			margin: .25em 0 .5em;
+			& a {
+				background-color: $enlace;
+				@each $a in $site-color {
+					.#{nth($a, 1)} & {
+						background-color: nth($a, 2);
+					}
+				}
+				@include border-radius(.3em);
+				color: $blanco;
+				@include rem('font-size', 20px);
+				margin-left: 35%;
+				padding: .25em .5em;
+				text-transform: uppercase;
+				@include breakpoints(bigPhone){
+					margin-left: 30%;
+				}
+				&:before {
+					color: #FFF;
+					content: "\f044";
+					cursor: pointer;
+					display: inline-block;
+					font-family: FontAwesome;
+					font-size: 2rem;
+					line-height: 1;
+					margin-right: 0.5em;
+				}
+			}
+		}
+		& p {
+			@include rem('font-size', 18px);
+			@include breakpoints(tablet) {
+				@include rem('font-size', 20px);
+			}
+			margin: 0 0 .5em .5em;
+		}
+		& > p {
+			@include flex-basis(65%);
+			text-align: left;
+			@include breakpoints(bigPhone) {
+				@include flex-basis(68%);
+			}
+			&.tituloInterno {
+				@include flex-basis(28%);
+				text-align: right;
+				margin: 0 .5em .5em 0;
+				@include breakpoints(bigPhone) {
+					@include flex-basis(23%);
+				}
+			}
+		}
+		& > div {
+			@include flex-basis(65%);
+			margin: 0 0 .5em .5em;
+			text-align: left;
+			@include breakpoints(bigPhone) {
+				@include flex-basis(70%);
+			}
+		}
+		& > ul {
+			@include flex-basis(65%);
+			@include breakpoints(bigPhone) {
+				@include flex-basis(70%);
+			}
+		}
+		& div {
+			@include flex-basis(65%);
+			margin: 0 0 .5em .5em;
+			@include breakpoints(bigPhone) {
+				@include flex-basis(70%);
+			}
+			& p {
+				margin-left: 0;
+			}
+		}
+		& li {
+			justify-content: flex-start;
+		}
+	}
+}

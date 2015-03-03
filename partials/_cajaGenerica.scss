@@ -1,0 +1,174 @@
+//_cajaGenerica.scss
+
+.cajaGenerica {
+	& ul {
+		list-style: none;
+	}
+	& .relacionadosContenido li:before {
+		color: $grisTexto;
+	}
+	& .textoContenido dt {
+		font-weight: $regular;
+	}
+	& .textoContenido dd {
+		margin-left: 1em;
+	}
+}
+
+.cajaDesplegable {
+	 
+	&.cajaGenerica { 
+		background-color: $blanco;
+		border: 1px solid #CCC;
+		margin-bottom: .5em;
+		@include display-flex;
+		@include flex-direction(row);
+		@include justify-content(space-between);
+		@include flex-wrap(wrap);
+		& .imagen {
+			@include align-self(stretch);
+			background-color: #EBEBEB;
+			@include justify-content(space-around);
+			@include order(3);
+			/*float: right;
+			width: 13.5%;
+			@include breakpoints(bigPhone){
+				width: 7.671%;
+			}
+			@include breakpoints(tablet){
+				width: 24.671%;
+			}*/
+		}
+		& h3 {
+			color: $enlace;
+			@each $a in $site-color {
+				.#{nth($a, 1)} & {
+					color: nth($a, 2);
+				}
+			}
+			cursor: pointer;
+			margin: 0 .5em .25em .5em;
+			padding-top: .25em;
+		}
+		& p {
+			font-family: $titulos-font-family;
+			font-weight: $xLight;
+			margin: 0 0.5em 0.5em 0.75em;
+		}
+		@include breakpoints(bigPhone){
+			//@include flex-basis(32%);
+		}
+		@include breakpoints(desktop){
+			@include align-items(center);
+			//@include flex-basis(32%);
+			margin-bottom: 1em;
+			//min-height: 8em;
+		}
+		& .textoContenido {
+			@include align-items(flex-start);
+			@include flex-basis(79%);
+			@include breakpoints(bigPhone){
+				@include flex-basis(60%);
+			}
+			@include breakpoints(tablet){
+				@include flex-basis(70%);
+			}
+		}
+	}
+	@include breakpoints(bigPhone){
+		@include display-flex;
+		@include flex-direction(row);
+		@include justify-content(space-between);
+		@include flex-wrap(wrap); 
+		& h2 {
+			@include flex-basis(100%);
+		}	
+	}
+	& .relacionadosItem {
+		display: none;
+		& ul {
+			list-style: none;
+			margin: 0 0 .5em .5em;
+		}
+		& li {
+			//background: url('../images/topoListaAccesos.png') no-repeat left .25em;
+			padding: 0 0 0 .5em;
+			&:before {
+					content: "\f101";
+					font-family: FontAwesome; 
+					@include rem('font-size',20px); 
+					line-height: 1;
+					padding-right: .5em;
+			}
+			
+		}
+		& a {
+			color: $negro;
+			font-family: $titulos-font-family;
+			@include rem('font-size', 14px);
+			font-weight: $light;
+			text-transform: uppercase;
+		}
+	}
+}
+
+// Cajas con enlaces como las subportadas de Bibliotecas antes de DU
+
+.cajaEnlaces { 
+	background-color: $blanco;
+	border: 1px solid #CCC;
+	margin-bottom: .5em;
+	padding: 1.5625%;
+	& h2,
+	& h3 {
+		border-left: 2px solid $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				border-left-color: nth($a, 2);
+			}
+		}
+		@include rem('font-size',20px);
+		line-height: 1;
+		margin-bottom: .5em;
+		padding-left: .5em;
+		text-transform: uppercase;
+	}
+	& li {
+		&:before {
+				content: "\f101";
+				font-family: FontAwesome; 
+				@include rem('font-size',20px); 
+				line-height: 1;
+				padding-right: .5em;
+		}
+	}
+}
+
+.cajaInfo {
+	background-color: $grisFondo;
+	border: 1px solid $grisBorde;
+	padding: .5em 1em;
+	margin-bottom: 1em;
+	& h2 {
+		border-bottom: 1px solid $grisBorde;
+		margin-bottom: 0.5em;
+	}
+	& h3 {
+		@include title2-style;
+		border-bottom: 1px solid $grisBorde;
+		margin-bottom: 0.5em;
+		
+	}
+	& p,
+	& li {
+		font-family: $titulos2-font-family;
+		@include rem ('font-size', 16px);
+	}
+	& .textoContenido p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.geocli {
+	display: none;
+}

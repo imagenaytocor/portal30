@@ -1,0 +1,108 @@
+//_cajaBuscadorCategorias.scss
+
+.buscadorCategoriasComplejo {
+	& ul {
+		list-style: none;
+	}
+}
+
+ul.cat1nivel > li {
+	background-color: rgba($enlace,.15) ;
+	@each $a in $site-color {
+		.#{nth($a, 1)} & {
+			background-color: rgba(nth($a, 2),.15);
+		}
+	}
+	border: 1px solid $grisBorde;
+	margin-bottom:.5em;
+	&.catMarcada {
+		background-color: red !important;
+	}
+	@include breakpoints(tablet){
+		float: left;
+		margin: 0 1% .5em;
+		width: 48%;
+		&:only-child {
+			width: 75%;
+		}
+	}
+	@include breakpoints(desktop){
+		margin: 0 1% .5em;
+		width: 31%;
+	}
+	& input[type=radio] {
+		margin: 0 .5em .5em;
+		@include scale(1.25,1.25);
+		width: 15%;
+		@include breakpoints(desktop){
+			margin: 0 0 .25em .25em;
+			@include scale(1,1);
+		}
+	}
+	& label {
+		left: 0;
+		position: relative;
+		text-transform: uppercase;
+		top: 0;
+	}
+	& label.padre:after {
+			content: "\f107";
+			display: inline-block; 
+			font-family: FontAwesome; 
+			@include rem('font-size',24px); 
+			line-height: 1;
+			margin-left: .25em;
+	}
+	& label.padre.abierto:after {
+		content: "\f106";
+	}
+	@include breakpoints(tablet){
+		&:nth-child(3n) {
+			clear: left;
+		}
+	}
+	@include breakpoints(desktop){
+		&:nth-child(3n) {
+			clear: none;
+		}
+		&:nth-child(4n) {
+			clear: left;
+		}
+	}
+	& > ul {
+		display: none;
+	}
+}
+
+ul.cat2nivel {
+	background-color: $blanco;
+	padding-left: 1em;
+ 	& > li {
+		& label {
+			@include rem('font-size',16px);
+			text-transform: none;
+		}
+		&.catMarcada > label {
+			color: red !important;
+		}
+	}
+}
+
+ul.cat3nivel {
+	margin-left: 1em;
+ 	& > li {
+	background-color: $blanco;
+	border-bottom: none;
+	& label {
+		@include rem('font-size',14px);
+		text-transform: none;
+		}
+	&.catMarcada > label {
+		color: pink !important;
+	}
+	}
+}
+
+.catMarcada {
+	
+}

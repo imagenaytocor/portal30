@@ -1,0 +1,82 @@
+//_sliders.scss
+
+
+.anythingControls a.start-stop span {
+	color: #FFF;
+	font-family: $titulos-font-family;
+	@include rem('font-size', 12px);
+	font-weight: $titulos-font-weight;
+	line-height: 2;
+	text-transform: uppercase;
+    visibility: visible;
+    
+}
+
+// slider destacado
+
+.sliderDestacado {
+	height: 14.35em;
+	margin: 0 0 .5em;
+	position: relative;
+	width: 100%;
+	@include breakpoints(bigPhone){
+		height: 18em;
+	}
+	@include breakpoints(tablet){
+		height: 25.5em;
+	}
+	@include breakpoints(desktop){
+		height: 24em;
+	}
+	@include breakpoints(medDesktop){
+		height: 26.75em;
+	}
+	@include breakpoints(bigDesktop){
+		height: 29.5em;
+	}
+	& img {
+		height: auto;
+		max-width: 100%;
+		width: 100%;
+	}
+	& .anythingWindow {
+		position: absolute;
+		top: 0;
+	}
+	& .anythingControls {
+		bottom: .5em;
+		position: absolute;
+		right: 0;
+	}
+	& .panel {
+		position: relative;
+	}
+	& .caption-right {
+		background-color: rgba($negro, 0.75);
+		bottom: 2.1em;
+		//height: 3em;
+		margin: .35em 0;
+		padding: .3em;
+		position: absolute;
+		@include breakpoints(tablet){
+			bottom: 1.75em;
+		}
+		& p {
+			color: #FFF;
+			font-family: $titulos-font-family;
+			@include rem('font-size', 16px);
+			font-weight: $titulos-font-weight;
+			line-height: 1.2;
+			padding: .25em 1em;
+			position: relative;
+			text-transform: uppercase;
+			width: 100%;
+			@include breakpoints(bigPhone){
+				@include rem('font-size', 18px);
+			}
+			@include breakpoints(tablet){
+				@include rem('font-size', 24px);
+			}
+		}
+	}
+}

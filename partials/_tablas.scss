@@ -1,0 +1,40 @@
+//_tablas.scss
+
+
+table {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	overflow-x: auto;
+	overflow-y: hidden;
+	text-align: center;
+  	-webkit-overflow-scrolling: touch;
+  	-ms-overflow-style: -ms-autohiding-scrollbar;
+  	width: 100%;
+}
+
+thead tr {
+	background-color: rgba($enlace,.25) !important;
+	@each $a in $site-color {
+		.#{nth($a, 1)} & {
+			background-color: rgba(nth($a, 2),.25) !important;
+		}
+	}
+}
+
+th {
+	border: 1px solid #CCC;
+	padding: .25em 0;
+	text-transform: uppercase;
+}
+
+tr {	
+	background-color: $blanco;
+	&:nth-of-type(even) {
+		background-color: #EBEBEB;
+	}
+}
+
+td {
+	@extend th;
+	text-transform: none;
+}

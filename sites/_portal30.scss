@@ -1,0 +1,7 @@
+.site_1266409838114 {
+	& #menuMapaWeb .menu_1283931718543 {
+		@include breakpoints(desktop) {
+			@include offleft;
+		}
+	}
+}

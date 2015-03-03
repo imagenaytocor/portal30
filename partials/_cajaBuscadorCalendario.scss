@@ -1,0 +1,30 @@
+//_cajaBuscadorCalendario.scss
+
+.cajaBuscadorCalendario {
+	 & table {
+		  width: 100%;
+		  overflow-x: auto;
+		  overflow-y: hidden;
+		  -webkit-overflow-scrolling: touch;
+		  -ms-overflow-style: -ms-autohiding-scrollbar;
+		  border: 1px solid #CCC;
+		  border-collapse: collapse;
+		  text-align: center;
+		  & th {
+		  	font-weight: $regular;
+		  	padding: .5em;
+		  }
+		  & td {
+		  	border: 1px solid #CCC;
+		  	padding: .5em;
+		  }
+		  & a {
+		  	color: #333;
+		  }
+	}
+	&.t-33 {
+		th, td {
+			@include rem('font-size', 14px);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+//_detalleNoticia.scss
+
+#detalleNoticia {
+	& .fechaNoticia {
+		color: $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				color: nth($a, 2);
+			}
+		}
+		@include rem('font-size', 16px);
+		font-weight: $regular;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+	@include breakpoints(tablet){
+		#contenido & {
+			@include flex-basis(88%);
+			padding-right: 1%;
+			} 
+	}
+}
