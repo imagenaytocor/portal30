@@ -15,7 +15,7 @@
 // slider destacado
 
 .sliderDestacado {
-	height: 14.35em;
+	height: 11.875em;
 	margin: 0 0 .5em;
 	position: relative;
 	width: 100%;
@@ -26,13 +26,13 @@
 		height: 25.5em;
 	}
 	@include breakpoints(desktop){
-		height: 24em;
+		height: 22.289em;
 	}
 	@include breakpoints(medDesktop){
-		height: 26.75em;
+		height: 25.066em;
 	}
 	@include breakpoints(bigDesktop){
-		height: 29.5em;
+		height: 27.8437em;
 	}
 	& img {
 		height: auto;
