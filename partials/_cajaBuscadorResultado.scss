@@ -192,9 +192,6 @@
 	}
 	& ul {
 		list-style: none;
-		&.listadoResultados {
-			margin-top: .75em;
-		}
 	}
 	&.cajaDesplegable {
 		background-color: $blanco;
@@ -354,7 +351,7 @@
 	& .listadoResultados > li {
 		border-bottom: 1px dotted $grisBorde;
 		float: left;
-		padding: .5em 0;
+		padding: 0 0 .5em;
 		width: 100%;
 		& > a {
 			display: block;
@@ -385,7 +382,7 @@
 	& .listadoResultados > li {
 		border-bottom: 1px dotted $grisBorde;
 		float: left;
-		padding: .5em 0;
+		padding: 0 0 .5em;
 		width: 100%;
 		& > a {
 			display: block;
@@ -472,14 +469,8 @@
 //listEventosComplejo5
 .listEventos5 {
 	@extend %listEventosDT;
-	& dd[class^="fechas"] {
-		//padding-left: 0;
-		//text-transform: uppercase;
-		&:before  {
-				
+	& dd[class^="fechas"]:before  {
 				display: none; 
-			  
-		}
 	}
 }
 
