@@ -43,11 +43,12 @@ $colorBibliotecas: rgb(240,47,112);
 $colorAgora: rgb(203,131,66);
 $colorEmpleo: rgb(0,119,73);
 $colorPMUS: rgb(237,139,0);
+$colorRede: rgb(0,117,74);
 
 
 //Colores de sites para fondo h1 - los sites sin imagen de fondo van con el color de la cabecera sólido $colorCultura_h1: darken(rgba($colorCultura,.85),5%); $colorMedioambiente_h1: darken(rgba($colorMedioambiente,.7),5%);
 
-$colorCMIX_h1: rgb(25,152,139);
+$colorCMIX_h1: rgb(8,209,251);
 $colorCultura_h1: darken(rgba($colorCultura,.85),5%);
 $colorMedioambiente_h1: darken(rgba($colorMedioambiente,.7),5%);
 $colorEmpleo_h1: darken(rgba($colorCMIX,.85),5%);
@@ -56,6 +57,7 @@ $colorBibliotecas_h1: rgb(151,215,0);
 $colorAgora_h1: rgb(25,152,139);
 $colorEmpleo_h1: rgb(0,119,73);
 $colorPMUS_h1: rgb(237,139,0);
+$colorRede_h1: rgb(0,117,74);
 
 $colorSinseccion: rgb(0, 159, 238);
 
@@ -66,13 +68,14 @@ $colorSinseccion: rgb(0, 159, 238);
 // site_agora = site_1300351791176
 // site_empleo = site_1352255804703
 // site_pmus = site_1369098952393 
+// site_rede = site_1266187561771
 
 //Mezclamos las secciones con su color
-$sites: site_1414721835012 site_1322782055091 site_medioambiente site_1352255804703 site_serviciossociales site_1382936859765 site_1300351791176 site_1369098952393;
+$sites: site_1414721835012 site_1322782055091 site_medioambiente site_1352255804703 site_serviciossociales site_1382936859765 site_1300351791176 site_1369098952393 site_1266187561771;
 
-$colorSites: $colorCMIX $colorCultura $colorMedioambiente $colorEmpleo $colorServiciossociales $colorBibliotecas $colorAgora $colorPMUS;
+$colorSites: $colorCMIX $colorCultura $colorMedioambiente $colorEmpleo $colorServiciossociales $colorBibliotecas $colorAgora $colorPMUS $colorRede;
 
-$colorSites_h1: $colorCMIX_h1 $colorCultura_h1 $colorMedioambiente_h1 $colorEmpleo_h1 $colorServiciossociales_h1 $colorBibliotecas_h1 $colorAgora_h1 $colorPMUS_h1;
+$colorSites_h1: $colorCMIX_h1 $colorCultura_h1 $colorMedioambiente_h1 $colorEmpleo_h1 $colorServiciossociales_h1 $colorBibliotecas_h1 $colorAgora_h1 $colorPMUS_h1 $colorRede_h1;
 
 $site-color: zip($sites, $colorSites);
 
