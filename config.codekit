@@ -926,17 +926,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1327,
-		"inputAbbreviatedPath": "\/images\/favicon.png",
-		"outputAbbreviatedPath": "\/images\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/fondo-site_1322782055091.png": {
 		"fileType": 32768,
 		"ignore": 0,

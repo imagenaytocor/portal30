@@ -1,4 +1,19 @@
 .site_1266409838114 {
+	@include breakpoints(desktop){
+		& ul#accesos {
+			top: 3.25em;
+			right: 2em;
+			z-index: 20; 
+			& li {
+				@include rem('font-size', 16px);
+				& a {
+					color: $enlace;
+					font-size: inherit;
+					visibility: visible;
+				}
+			}
+		}
+	}
 	& #menuMapaWeb .menu_1283931718543 {
 		@include breakpoints(desktop) {
 			@include offleft;
