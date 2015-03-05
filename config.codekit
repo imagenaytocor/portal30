@@ -321,6 +321,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/apple-touch-icon-114x114-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3001,
+		"inputAbbreviatedPath": "\/images\/apple-touch-icon-114x114-precomposed.png",
+		"outputAbbreviatedPath": "\/images\/apple-touch-icon-114x114-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/apple-touch-icon-144x144-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3631,
+		"inputAbbreviatedPath": "\/images\/apple-touch-icon-144x144-precomposed.png",
+		"outputAbbreviatedPath": "\/images\/apple-touch-icon-144x144-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/apple-touch-icon-57x57-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1776,
+		"inputAbbreviatedPath": "\/images\/apple-touch-icon-57x57-precomposed.png",
+		"outputAbbreviatedPath": "\/images\/apple-touch-icon-57x57-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/apple-touch-icon-72x72-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2066,
+		"inputAbbreviatedPath": "\/images\/apple-touch-icon-72x72-precomposed.png",
+		"outputAbbreviatedPath": "\/images\/apple-touch-icon-72x72-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ayto.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -882,6 +926,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1327,
+		"inputAbbreviatedPath": "\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/fondo-site_1322782055091.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1318,6 +1373,17 @@
 		"initialSize": 40799,
 		"inputAbbreviatedPath": "\/images\/fotoNoticia2.jpg",
 		"outputAbbreviatedPath": "\/images\/fotoNoticia2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon.aytocor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9654,
+		"inputAbbreviatedPath": "\/images\/icon.aytocor.png",
+		"outputAbbreviatedPath": "\/images\/icon.aytocor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4216,6 +4282,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sites\/_cultura.scss",
 		"outputAbbreviatedPath": "\/estilos\/_cultura.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sites\/_empleo.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sites\/_empleo.scss",
+		"outputAbbreviatedPath": "\/estilos\/_empleo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
