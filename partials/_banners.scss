@@ -256,10 +256,6 @@
 	background-color: $blanco;
 	border: 1px solid $grisFondo;
 	margin-bottom: .5em;
-	/*@include breakpoints(bigPhone){
-		@include flex-basis(32%);
-		margin-bottom: 0;
-	}*/
 	& img {
 		//Funciona en Safari y en Chrome para recortar las fotos en Firefox las aplasta...
 		object-fit: cover;
@@ -332,8 +328,6 @@
 		}
 	margin-bottom: .5em !important;
 	& p {
-		padding: .25em .5em;
-		@include title3-style;
 		@include rem('font-size',22px);
 		margin: 0;
 		@include breakpoints (bigPhone) {
@@ -400,6 +394,14 @@
 //banner con icono FA - tiene que ser cajaBanner
 
 .bannerFA {
+	background-color: $blanco;
+	border: 1px solid $enlace;
+	@each $a in $site-color {
+		.#{nth($a, 1)} & {
+			border-color: nth($a, 2);
+			}
+		}
+	margin-bottom: .5em !important;
 	& p {
 		float: right;
 		padding: .15em .25em .15em .1em;
@@ -420,10 +422,6 @@
 			@include rem('font-size',25px);
 			width: 80%;
 		}
-		/*@include breakpoints (desktop) {
-			@include rem('font-size',25px);
-			width: 80%;
-		}*/
 	}
 }
 
