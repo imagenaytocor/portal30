@@ -9,6 +9,12 @@
 		@include justify-content(space-between);
 		@include align-items(flex-start);
 	}
+	& div[id^="detalle"] {
+		@include breakpoints(tablet){
+			@include flex-basis(88%);
+			padding-right: 1%;
+		}
+	}
 	& h2 {
 		text-transform: none;
 	}

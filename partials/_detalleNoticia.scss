@@ -13,10 +13,4 @@
 		margin-bottom: 0;
 		text-transform: uppercase;
 	}
-	@include breakpoints(tablet){
-		#contenido & {
-			@include flex-basis(88%);
-			padding-right: 1%;
-			} 
-	}
 }
