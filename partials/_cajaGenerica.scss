@@ -30,14 +30,6 @@
 			background-color: #EBEBEB;
 			@include justify-content(space-around);
 			@include order(3);
-			/*float: right;
-			width: 13.5%;
-			@include breakpoints(bigPhone){
-				width: 7.671%;
-			}
-			@include breakpoints(tablet){
-				width: 24.671%;
-			}*/
 		}
 		& h3 {
 			color: $enlace;
@@ -140,6 +132,14 @@
 				@include rem('font-size',20px); 
 				line-height: 1;
 				padding-right: .5em;
+		}
+	}
+	& .textoContenido {
+		@include breakpoints(tablet){
+			margin-top: 3.125%;
+		}
+		@include breakpoints(desktop){
+			margin-top: 1.5625%;
 		}
 	}
 }
