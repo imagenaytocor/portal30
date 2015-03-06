@@ -1,14 +1,4 @@
-//_detalleEntidad.scss
-
-#detalleEntidad {
-	@include breakpoints(tablet){
-		#contenido & {
-			@include flex-basis(88%);
-			padding-right: 1%;
-		} 
-	}
-}
-
+//_detalleEntidad.scss incluye #detalleTituloEstudios
 #dtEntidad {
 	margin-bottom: 1em;
 	@include breakpoints(bigPhone) {
@@ -27,7 +17,6 @@
 	& dt {
 		@include flex-basis(25%);
 		@include rem('font-size',16px);
-		font-weight: $regular;
 		text-align: right;
 		text-transform: uppercase;
 		margin: 0 .5em .5em 0;
@@ -60,4 +49,8 @@
 		display: block;
 		text-align: right;
 	}
+}
+
+#detalleTituloEstudios {
+	@extend #dtEntidad;
 }

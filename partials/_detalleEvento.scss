@@ -1,12 +1,4 @@
 //_detalleEvento.scss
-
-#detalleEvento {
-	@include breakpoints(tablet){
-		@include flex-basis(88%);
-		padding-right: 1%;
-	}
-}
-
 #dtEvento {
 	margin-bottom: 1em;
 	@include breakpoints(bigPhone) {
@@ -79,20 +71,20 @@
 			margin: 0 0 .5em .5em;
 			text-align: left;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(70%);
+				@include flex-basis(68%);
 			}
 		}
 		& > ul {
 			@include flex-basis(65%);
 			@include breakpoints(bigPhone) {
-				@include flex-basis(70%);
+				@include flex-basis(68%);
 			}
 		}
 		& div {
 			@include flex-basis(65%);
 			margin: 0 0 .5em .5em;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(70%);
+				@include flex-basis(68%);
 			}
 			& p {
 				margin-left: 0;

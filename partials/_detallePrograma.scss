@@ -1,12 +1,4 @@
 //_detallePrograma.scss
-
-#detallePrograma {
-	@include breakpoints(tablet){
-		@include flex-basis(88%);
-		padding-right: 1%;
-	}
-}
-
 #datosPrograma {
 	background-color: $grisFondo;
 	border: 1px solid $grisBorde;
