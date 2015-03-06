@@ -402,7 +402,7 @@
 			}
 		}
 	margin-bottom: .5em !important;
-	& p {
+	& p {	
 		float: right;
 		padding: .15em .25em .15em .1em;
 		width: 80%;
@@ -433,7 +433,12 @@ span.fa {
 			color: nth($a, 2);
 		}
 	}
+	@include rem('font-size',22px);
 	margin: .25em;
+	@include breakpoints (bigPhone) {
+		@include rem('font-size',25px);
+	}
+	//margin: .25em;
 	.m-100 &,
 	.m-50 &,
 	.t-33 & {
