@@ -1,9 +1,5 @@
 /*_temp.scss -> Estilos necesarios durante la creación de las CSS*/
 
-.fondo_biblio .listadoResultados {
-    list-style: outside none none;
-}
-
 .paginaPortada.site_1382936859765 #contenido,
 .paginaPortada.site_1414721835012 #contenido {
 	@include flex-basis(100%);
