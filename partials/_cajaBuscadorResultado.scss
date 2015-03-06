@@ -181,6 +181,18 @@
 			  margin-right:.75em;
 		}
 	}
+	& dd[class^="nota"] {
+		padding-left: 0;
+		&:before  {
+				content: '\f05a';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
 	.colCaja & {
 	}
 	& dd[class^="fecha"] {
