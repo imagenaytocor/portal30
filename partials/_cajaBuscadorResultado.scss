@@ -361,7 +361,7 @@
 }
 
 
-// nuevo listEventosComplejo - sin dt - 1, 3 y 4
+// nuevo listEventosComplejo - sin dt - 1, 3, 4 y 6
 %listEventosNoDT {
 	& .listadoResultados > li {
 		border-bottom: 1px dotted $grisBorde;
@@ -485,6 +485,14 @@
 	@extend %listEventosDT;
 	& dd[class^="fechas"]:before  {
 				display: none; 
+	}
+}
+
+//listEventosComplejo6
+.listEventos6 {
+	@extend %listEventosNoDT;
+	& .listadoResultados > li > a {
+		text-transform: none;
 	}
 }
 
