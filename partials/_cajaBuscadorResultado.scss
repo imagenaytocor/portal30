@@ -390,6 +390,12 @@
 			display: none;
 		}
 	}
+	& dd[class^="nota"] {
+		padding-left: 2.1em;
+		&:before  {
+				display:none;
+		}
+	}
 }
 
 // nuevo listEventosComplejo - dt - 2, 5, 8, 9
