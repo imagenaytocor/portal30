@@ -80,9 +80,6 @@ body:after {
 	@include flex-direction(row);
 	@include justify-content(space-between);
 	@include flex-wrap(wrap);
-	@include breakpoints(desktop) {
-		@include flex-wrap(nowrap);
-	}
 	padding-top: 1em;
 	position: relative;
 	@each $a in $sites {
