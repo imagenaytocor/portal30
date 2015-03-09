@@ -79,7 +79,7 @@ body:after {
 	@include display-flex;
 	@include flex-direction(row);
 	@include justify-content(space-between);
-	@include flex-wrap(wrap);
+	@include flex-wrap(nowrap);
 	padding-top: 1em;
 	position: relative;
 	@each $a in $sites {
