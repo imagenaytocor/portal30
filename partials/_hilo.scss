@@ -8,9 +8,6 @@
 	@include breakpoints(desktop){
 		@include flex-basis(100%);
 	}
-	.paginaPortada & {
-		display: none;
-	}
 	& ul {
 		@include display-flex;
 		@include flex-direction(row);
@@ -33,6 +30,12 @@
 		&:last-of-type:after {
 			content: "";
 			margin-left: 0;
+		}
+	}
+	.paginaPortada & {
+		border-bottom: none;
+		& ul {
+			@include offleft;
 		}
 	}
 }

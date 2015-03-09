@@ -1,24 +1,5 @@
 //_grids.scss
 
-@-webkit-viewport {
-	width:device-width;
-}
-
-@-moz-viewport {
-	width:device-width;
-}
-
-@-ms-viewport {
-	width:device-width;
-}
-
-@-o-viewport {
-	width:device-width;
-}
-
-@viewport {
-	width:device-width;
-}
 
 html {
     background: #FFF;
@@ -138,7 +119,7 @@ body:after {
 	width: 100%;
 	@include breakpoints(desktop){
 		background-color: $blanco;
-		@include flex-basis(34%); 
+		@include flex-basis(33%); 
 		padding: 1.5em 3.125% 1.5em 1%;
 		width: auto;
 	}
