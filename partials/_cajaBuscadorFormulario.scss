@@ -42,8 +42,6 @@
 	& .listaCategorias li {
 		float: left;
 		width: 100%;
-		//margin-right: .5em;
-		//padding: .25em .5em;
 		&:before  {
 			color: $enlace;
 			@each $a in $site-color {
