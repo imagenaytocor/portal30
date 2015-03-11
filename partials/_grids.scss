@@ -180,6 +180,7 @@ body:after {
 		@include flex-direction(row);
 		@include flex-wrap(wrap);
 		@include justify-content(space-between);
+		@include align-content(flex-start);
 		margin: .5em 0;
 		&.t-25 {
 		
