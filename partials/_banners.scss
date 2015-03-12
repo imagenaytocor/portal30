@@ -214,6 +214,32 @@
 	}
 }
 
+//tiraBanners con fondo gris
+.tiraBannersFondo {
+	background-color: $grisFondo;
+	padding: .5em 2.5%;
+	& h2,
+	& h3 {
+		border-left: 2px solid $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				border-left-color: nth($a, 2);
+			}
+		}
+		@include rem('font-size',20px);
+		line-height: 1;
+		margin-bottom: .5em;
+		padding-left: .5em;
+		text-transform: uppercase;
+	}
+	& .imagenPromocion {
+		padding: .5em;
+	}
+	& .promocionContenido img {
+		object-fit: contain;
+	}
+}
+
 .bannerEnviarComentarios {
 	background-color: $enlace;
 	@each $a in $site-color {
