@@ -328,6 +328,10 @@
 			font-weight: $light;
 			margin-bottom:0;
 			padding: .15em .55em;
+			& a {
+				color: $blanco;
+				font-weight: $regular;
+			}
 		}
 	}
 	& ul {
