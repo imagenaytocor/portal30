@@ -15,6 +15,17 @@
 	}
 }
 
+.cajaImgTxt {
+	background-color: $grisFondo;
+	& .imagen {
+		height: 6.25em;
+		width: 100%;
+	}
+	& .textoContenido {
+		padding: .5em;
+	}
+}
+
 .cajaDesplegable {
 	 
 	&.cajaGenerica { 
