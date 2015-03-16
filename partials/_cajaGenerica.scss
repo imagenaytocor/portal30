@@ -18,11 +18,14 @@
 .cajaImgTxt {
 	background-color: $grisFondo;
 	& .imagen {
-		height: 6.25em;
+		//height: 6.25em;
 		width: 100%;
 	}
 	& .textoContenido {
 		padding: .5em;
+		& * {
+			font-family: $titulos2-font-family;
+		}
 	}
 }
 
@@ -38,7 +41,7 @@
 		@include flex-wrap(wrap);
 		& .imagen {
 			@include align-self(stretch);
-			background-color: #EBEBEB;
+			background-color: $grisFondo;
 			@include justify-content(space-around);
 			@include order(3);
 		}
