@@ -238,6 +238,9 @@
 	& .promocionContenido img {
 		object-fit: contain;
 	}
+	& > div.m-50:nth-of-type(odd) {
+		clear: left;
+	}
 }
 
 .bannerEnviarComentarios {
