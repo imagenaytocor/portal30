@@ -238,6 +238,16 @@
 	& .promocionContenido img {
 		object-fit: contain;
 	}
+	& > div.m-50:last-of-type {
+		@include breakpoints(tablet) {
+			margin-bottom: .5em !important;
+		}
+	}
+	#contenidoAux & > div.m-50:last-of-type {
+		@include breakpoints(tablet) {
+			margin-bottom: 1em !important;
+		}
+	}
 	& > div.m-50:nth-of-type(odd) {
 		clear: left;
 	}
