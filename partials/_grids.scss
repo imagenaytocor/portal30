@@ -106,7 +106,6 @@ body:after {
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(desktop){
-		background-color: $blanco;
 		@include flex-basis(66%); 
 		padding: 1.5em 1% 1.5em 3.125%;
 		width: auto;
@@ -117,7 +116,6 @@ body:after {
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(desktop){
-		background-color: $blanco;
 		@include flex-basis(33%); 
 		padding: 1.5em 3.125% 1.5em 1%;
 		width: auto;
