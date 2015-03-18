@@ -183,6 +183,77 @@
 	}
 }
 
+.cajaInfoEnlace {
+	border: 1px solid $grisBorde;
+	padding: .5em;
+	margin-bottom: 1em;
+	& .textoContenido {
+		background-color: $blanco;
+		padding: .5em;
+	}
+	& h2 {
+		color: $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				color: nth($a, 2);
+			}
+		}
+	}
+	& h3 {
+		@include title2-style;
+		color: $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				color: nth($a, 2);
+			}
+		}
+	}
+	& p,
+	& li {
+		font-family: $titulos2-font-family;
+		@include rem ('font-size', 16px);
+	}
+	& .textoContenido p:last-child {
+		margin-bottom: 0;
+	}
+	& em {
+		display: block;
+		font-style: normal;
+		margin: .5em .5em .5em 0;
+		& a {
+			background-color: $enlace;
+			@each $a in $site-color {
+				.#{nth($a, 1)} & {
+					background-color: nth($a, 2);
+				}
+			}
+			@include border-radius(.3em);
+			color: $blanco;
+			padding: .1em .5em;
+			position: relative;
+			text-transform: uppercase;
+			&:after {
+				background: none repeat scroll 0 0 $enlace;
+				@each $a in $site-color {
+					.#{nth($a, 1)} & {
+						background-color: nth($a, 2);
+					}
+				}
+				@include border-radius(.15em);
+				top: 5px;
+				content: " ";
+				height: 1em;
+				right: -7px;
+				margin: 0 auto;
+				position: absolute;
+				@include transform(rotate(-45deg));
+				width: 1em;
+				z-index: 10;
+			}
+		}
+	}
+}
+
 .geocli, .geodet {
 	display: none;
 }
