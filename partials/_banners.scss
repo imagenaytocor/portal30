@@ -291,6 +291,55 @@
 	}
 }
 
+//Aviso urgente
+.aviso {
+	#contenidoCentralSuperior > &:only-child {
+		margin: 1.5em 0 -1.5em;
+		@include breakpoints (tablet) {
+			margin: 1em 0 -1.25em;
+		}
+		@include breakpoints (desktop) {
+			margin: 1.5em 0 -1.5em;
+		}
+	}
+	& p {
+		@include display-flex;
+		@include justify-content(space-between);
+		font-family: $titulos2-font-family;
+		@include rem ('font-size', 14px);
+		margin-bottom: 0;
+		@include breakpoints (tablet) {
+			@include rem ('font-size', 16px);
+		}
+	}
+	& .linea1banner {
+		background-color: $error;
+		color: $blanco;
+		@include flex-basis(14%);
+		padding: .5em;
+		text-transform: uppercase;
+		@include breakpoints (medDesktop) {
+			@include flex-basis(12%);
+		}
+	}
+	& .linea2banner {
+		background-color: $grisFondo;
+		@include flex-basis(74%);
+		margin-right: 1%;
+		padding: .5em;
+		@include breakpoints (bigPhone) {
+			@include flex-basis(83%);
+		}
+		@include breakpoints (tablet) {
+			@include flex-basis(85%);
+			margin-right: 0;
+		}
+		@include breakpoints (medDesktop) {
+			@include flex-basis(87%);
+		}
+	}
+}
+
 .promocionContenido {
 	background-color: $blanco;
 	border: 1px solid $grisFondo;
