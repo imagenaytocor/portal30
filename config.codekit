@@ -3957,6 +3957,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/partials\/_grids.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_grids.scss",
+		"outputAbbreviatedPath": "\/estilos\/_grids.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/partials\/_hilo.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,

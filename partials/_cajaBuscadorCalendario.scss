@@ -28,3 +28,52 @@
 		}
 	}
 }
+
+.ui-datepicker-header {
+	border: 1px solid $grisBorde;
+	@include display-flex;
+	font-family: $titulos-font-family;
+	@include justify-content(space-between);
+}
+
+.ui-datepicker-prev {
+	@include flex-basis(27%);
+	padding: .5em;
+	order:1;
+	&:before  {
+		color: $negro;
+		content: '\f100';
+		cursor: pointer;
+		display: inline-block; 
+	  font-family: FontAwesome; 
+	  @include rem('font-size',18px); 
+	  line-height: 1;
+	  margin-right: .5em;
+	}
+}
+
+.ui-datepicker-next {
+	@include flex-basis(27%);
+	padding: .5em;
+	order:3;
+	&:after  {
+		color: $negro;
+		content: '\f101';
+		cursor: pointer;
+		display: inline-block; 
+	  font-family: FontAwesome; 
+	  @include rem('font-size',18px); 
+	  line-height: 1;
+	  margin-left: .5em;
+	}
+}
+
+.ui-datepicker-title {
+	border-right: 1px solid $grisBorde;
+	border-left: 1px solid $grisBorde;
+	@include flex-basis(40%);
+	order:2;
+	padding: .5em;
+	text-align: center;
+	text-transform: uppercase;
+}
