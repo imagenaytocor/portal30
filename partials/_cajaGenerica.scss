@@ -183,7 +183,7 @@
 	}
 }
 
-.cajaInfoEnlace {
+.cajaInfoFlecha {
 	border: 1px solid $grisBorde;
 	padding: .5em;
 	margin-bottom: 1em;
@@ -229,7 +229,7 @@
 			}
 			@include border-radius(.3em);
 			color: $blanco;
-			padding: .1em .5em;
+			padding: .1em 1em .1em .5em;
 			position: relative;
 			text-transform: uppercase;
 			&:after {
