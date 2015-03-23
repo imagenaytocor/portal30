@@ -40,5 +40,8 @@ p.masInfo {
 			line-height: 1;
 			padding-right: .5em;
 		}
+		&:visited {
+			color: $blanco;
+		}
 	}
 }

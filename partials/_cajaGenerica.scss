@@ -250,6 +250,9 @@
 				width: 1em;
 				z-index: 10;
 			}
+			&:visited {
+				color: $blanco;
+			}
 		}
 	}
 }

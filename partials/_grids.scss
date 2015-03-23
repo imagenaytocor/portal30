@@ -181,29 +181,19 @@ body:after {
 		@include align-content(flex-start);
 		margin: .5em 0;
 		&.t-25 {
-		
 				@include flex-basis(23%);
-		
 		}
 		&.t-33 {
-		
 				@include flex-basis(32%);
-		
 		}
 		&.t-50 {
-			
 				@include flex-basis(48%);
-			
 		}
 		&.t-66 {
-			
 				@include flex-basis(65%);
-			
 		}
 		&.t-100 {
-			
 				@include flex-basis(100%);
-			
 		}
 	}
 	@include breakpoints(desktop){
