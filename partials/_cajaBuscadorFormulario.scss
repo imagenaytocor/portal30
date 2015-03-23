@@ -149,37 +149,4 @@
 		}
 	}
 }
-
-//Buscador Google
-#googleFrame {
-	@include para-style;
-}
-.gsc-search-box {
-	& td {
-		border: none;
-	}
-}
-td.gsc-input {
-	width: 70% !important;
-}
-td.gsc-search-button {
-	width: 20% !important;
-}
-td.gsc-clear-button {
-	width: 5% !important;
-}
-input.gsc-search-button {
-	background-color: $enlace;
-	background-image: url(//estaticos.coruna.es/imagesdu/lupaBuscador.png);
-	background-position: .6em .45em;
-	background-repeat: no-repeat;
-	border: none;
-	@include border-radius(.3em);
-	color: $blanco;
-	float: left;
-	line-height: 1.6;
-	padding-left: 2em;
-	text-transform: uppercase;
-	width: 6em;
-}
  
