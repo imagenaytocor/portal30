@@ -4241,6 +4241,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sites\/_adopcion.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sites\/_adopcion.scss",
+		"outputAbbreviatedPath": "\/estilos\/_adopcion.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sites\/_agora.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
