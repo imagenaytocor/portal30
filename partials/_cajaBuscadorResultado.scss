@@ -272,6 +272,7 @@
 		width: 30%;
 		@include breakpoints(tablet) {
 			float: left;
+			width: auto;
 		}
 	}
 	& dl {
