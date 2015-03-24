@@ -9,6 +9,12 @@
 		margin-right: 1.5%;
 		padding-right: 1.5%;
 	}
+	& + div[class^="des"] {
+		@include breakpoints(tablet){
+			@include flex-basis(88%);
+			padding-right: 1%;
+		}
+	}
 	& ul {
 		list-style: none;
 		margin-left: 0;
