@@ -594,17 +594,21 @@
 //listDosCol
 
 .listDosCol {
+	& ul {
+		@include display-flex;
+		@include flex-flow(row wrap);
+		margin-left: 0;
+	}
 	& li {
-		float: left;
-		height: 12.5em;
-		@include breakpoints(tablet){
-			height: 15em;
-		}
-		@include breakpoints(desktop){
-			height: 14em;
-		}
+		@include flex-basis(100%);
 		margin: .5em 1%;
-		width: 48% !important;
+		@include breakpoints (bigPhone) {
+			@include flex-basis(48%);
+		}
+		& > a {
+			display: block;
+			margin-bottom: 1em;
+		}
 		& .imagen {
 			height: 5.52em;
 			object-fit: cover;
@@ -618,6 +622,9 @@
 			@include breakpoints(desktop){
 				height: 9.7382em;
 			}
+		}
+		& dd[class^="nota"] {
+		    margin-left: 0;
 		}
 	}
 } 
