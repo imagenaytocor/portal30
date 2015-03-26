@@ -446,6 +446,9 @@
 	& dd[class^="nota"]:before {
 			display:none;
 	}
+	& dd[class^="nota"] {
+		margin-left: 0;
+	}
 	& .entradilla {
 		color: $negro;
 		@include rem('font-size', 16px);
@@ -487,6 +490,13 @@
 		text-align: right;
 		text-transform: none;
 		width: 27%;
+		&.titulo {
+			@include rem('font-size', 20px);
+			margin-bottom: .5em;
+			text-align: left;
+			text-transform: uppercase;
+			width: 100%;
+		}
 	}
 	& dd {
 		float: left;
@@ -498,6 +508,12 @@
 			&:empty {
 				display: none;
 			}
+		}
+		&[class]:before {
+				display:none;
+		}
+		&[class^="nota"]:before {
+				display: inline;
 		}
 		&[class^="tipoPublico"] {
 			display: inline-block;
