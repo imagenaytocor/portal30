@@ -571,62 +571,6 @@
 	}
 }
 
-//listEventosComplejo1 - NO USAR
-.listEventos1 {
-	@extend %listCompNoDT;
-}
-
-//listEventosComplejo2 - NO SE USA va a salir mal por la imagen
-.listEventos2 {
-	@extend %listCompDT;
-	/*& .imagen {
-		float: right;
-		margin: 0 0 3.125% 3.125%;
-	}
-	& img.imagen {
-		width: 100%;
-	}*/
-}
-
-//listEventosComplejo3
-.listEventos3 {
-	@extend %listCompNoDT;
-}
-
-//listEventosComplejo4
-.listEventos4 {
-	@extend %listCompNoDT;
-	#contenidoAux & dd.fechaInscripcion {
-		@include offleft;
-	}
-}
-
-//listEventosComplejo5
-.listEventos5 {
-	@extend %listCompDT;
-	& dd[class^="fechas"]:before  {
-				display: none; 
-	}
-}
-
-//listEventosComplejo6
-.listEventos6 {
-	@extend %listCompNoDT;
-	& .listadoResultados > li > a {
-		text-transform: none;
-	}
-}
-
-//listEventosComplejo8
-.listEventos8 {
-	@extend %listCompDT;
-}
-
-//listEventosComplejo9
-.listEventos9 {
-	@extend %listCompDT;
-}
-
 //ListadoEntidad
 
 .listEntidad {
