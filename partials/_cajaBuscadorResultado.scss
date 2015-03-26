@@ -351,63 +351,6 @@
 	}
 }
 
-//ListadoEventosComplejo7
-/*
-.listEventos7 {
-	& .listadoResultados > li {
-		border-bottom: 1px dotted $grisBorde;
-		float: left;
-		padding: .5em 0;
-		width: 100%;
-	}
-	& dl > a {
-		display: block;
-		@include rem('font-size', 20px);
-		margin-bottom: .5em;
-		padding-left: 1em;
-		text-transform: uppercase;
-	}
-	& dt {
-		@include offleft;
-	}
-	& dd {
-		@include rem('font-size', 16px);
-		padding-left: 1.25em;
-		& p {
-			@include rem('font-size', 16px);
-			&:only-child {
-				margin-bottom: 0;
-			}
-		}
-		& p:empty {
-			display: none;
-		}
-	}
-	& dd[class^="fechas"] {
-		padding-left: 0;
-		&:before  {
-				content: '\f073';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.25em;
-		}
-	}
-	& .entradilla {
-		border: none;
-		color: $negro;
-		font-weight: $xLight;
-	}
-	& .imagen {
-		float: right;
-		margin: 0 0 3.125% 3.125%;
-		width: 30%;
-	}
-}
-*/
-
 // listado complejo - sin dt - 1, 3, 4 y 6
 %listCompNoDT {
 	& .listadoResultados > li {
