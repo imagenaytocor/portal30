@@ -127,6 +127,7 @@
 		width: 6.5em;
 	}
 
+//
 
 .cajaBuscadorResultado {
 	& dl {
@@ -214,6 +215,7 @@
 	}
 	& ul {
 		list-style: none;
+		margin-left: 0;
 	}
 	&.cajaDesplegable {
 		background-color: $blanco;
@@ -349,83 +351,30 @@
 	}
 }
 
-//ListadoEventosComplejo7
-
-.listEventos7 {
-	& .listadoResultados > li {
-		border-bottom: 1px dotted $grisBorde;
-		float: left;
-		padding: .5em 0;
-		width: 100%;
-	}
-	& dl > a {
-		display: block;
-		@include rem('font-size', 20px);
-		margin-bottom: .5em;
-		padding-left: 1em;
-		text-transform: uppercase;
-	}
-	& dt {
-		@include offleft;
-	}
-	& dd {
-		@include rem('font-size', 16px);
-		padding-left: 1.25em;
-		& p {
-			@include rem('font-size', 16px);
-			&:only-child {
-				margin-bottom: 0;
-			}
-		}
-		& p:empty {
-			display: none;
-		}
-	}
-	& dd[class^="fechas"] {
-		padding-left: 0;
-		&:before  {
-				content: '\f073';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.25em;
-		}
-	}
-	& .entradilla {
-		border: none;
-		color: $negro;
-		font-weight: $xLight;
-	}
-	& .imagen {
-		float: right;
-		margin: 0 0 3.125% 3.125%;
-		width: 30%;
-	}
-}
-
-
-// nuevo listEventosComplejo - sin dt - 1, 3, 4 y 6
-%listEventosNoDT {
+// listado complejo - sin dt - 1, 3, 4 y 6
+%listCompNoDT {
 	& .listadoResultados > li {
 		border-bottom: 1px dotted $grisBorde;
 		float: left;
 		padding: 0 0 .5em;
 		width: 100%;
-		& > a {
-			display: block;
-			@include rem('font-size', 20px);
-			margin-bottom: .25em;
-			text-transform: uppercase;
-		}
 	}
 	& dt {
 		@include offleft;
+		&.titulo {
+			@include rem('font-size', 20px);
+			left: 0;
+			margin: 0 0 .5em;
+			padding-left: 0;
+			position: relative;
+			text-transform: uppercase;
+			top: 0;
+		}
 	}
 	& dd {
-		padding-left: 2.1em;
+		padding-left: 0;
 		& p {
+			display:inline;
 			@include rem('font-size', 16px);
 			&:only-child {
 				margin-bottom: 0;
@@ -435,16 +384,35 @@
 			display: none;
 		}
 	}
+	& dd[class^="fechas"]:before,
+	& dd[class^="fechaI"]:before,
+	& dd[class^="nota"]:before {
+			display:none;
+	}
 	& dd[class^="nota"] {
-		padding-left: 2.1em;
-		&:before  {
-				display:none;
+		margin-left: 0;
+	}
+	& .entradilla {
+		color: $negro;
+		@include rem('font-size', 16px);
+		font-weight: $xLight;
+		padding-left: .5em;
+	}
+	& .imagen {
+		@include breakpoints (tablet) {
+			float: right;
+			margin: 0 0 3.125% 3.125%;
+			padding-left: 0;
+			width: 30%;
 		}
+	}
+	& img.imagen {
+		width: 100%;
 	}
 }
 
 // nuevo listEventosComplejo - dt - 2, 5, 8, 9
-%listEventosDT {
+%listCompDT {
 	& .listadoResultados > li {
 		border-bottom: 1px dotted $grisBorde;
 		float: left;
@@ -465,6 +433,13 @@
 		text-align: right;
 		text-transform: none;
 		width: 27%;
+		&.titulo {
+			@include rem('font-size', 20px);
+			margin-bottom: .5em;
+			text-align: left;
+			text-transform: uppercase;
+			width: 100%;
+		}
 	}
 	& dd {
 		float: left;
@@ -477,22 +452,17 @@
 				display: none;
 			}
 		}
+		&[class]:before {
+				display:none;
+		}
+		&[class^="nota"]:before {
+				display: inline;
+		}
 		&[class^="tipoPublico"] {
 			display: inline-block;
 			margin-right: 1em;
 			width: auto;
 		}
-	}
-}
-
-//listEventosComplejo1
-.listEventos1 {
-	@extend %listEventosNoDT;
-	& .entradilla {
-		border: none;
-		color: $negro;
-		@include rem('font-size', 16px);
-		font-weight: $xLight;
 	}
 	& .imagen {
 		@include breakpoints (tablet) {
@@ -506,26 +476,126 @@
 	}
 }
 
+//listado complejo sin etiquetas
+.lstComSinEti {
+	@extend %listCompNoDT;
+}
+
+//listado complejo con etiquetas
+.lstComConEti {
+	@extend %listCompDT;
+}
+
+//listado complejo sin etiquetas y con iconos
+.lstIconos {
+	@extend %listCompNoDT;
+	& dd[class^="fechas"] {
+		padding-left: 0;
+		text-transform: uppercase;
+		&:before  {
+				content: '\f073';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
+	& dd[class^="fechaI"] {
+		padding-left: 0;
+		&:before  {
+				content: '\f044';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
+	& dd[class^="horario"] {
+		padding-left: 0;
+		&:before  {
+				content: '\f017';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
+	& dd[class^="direccion"] {
+		padding-left: 0;
+		&:before  {
+				content: '\f041';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
+	& dd[class^="precio"] {
+		padding-left: 0;
+		&:before  {
+				content: '\f153';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+	}
+	& dd[class^="nota"] {
+		margin-left: 19%;
+		padding-left: 0;
+		&:before  {
+				content: '\f05a';
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',20px); 
+			  line-height: 1;
+			  margin-right:.75em;
+		}
+		@include breakpoints(bigPhone) {
+			margin-left: 23%;
+		}
+		@include breakpoints(tablet) {
+			margin-left: 25%;
+		}
+	}
+}
+
+//listEventosComplejo1 - NO USAR
+.listEventos1 {
+	@extend %listCompNoDT;
+}
+
 //listEventosComplejo2 - NO SE USA va a salir mal por la imagen
 .listEventos2 {
-	@extend %listEventosDT;
-	& .imagen {
+	@extend %listCompDT;
+	/*& .imagen {
 		float: right;
 		margin: 0 0 3.125% 3.125%;
 	}
 	& img.imagen {
 		width: 100%;
-	}
+	}*/
 }
 
 //listEventosComplejo3
 .listEventos3 {
-	@extend %listEventosNoDT;
+	@extend %listCompNoDT;
 }
 
 //listEventosComplejo4
 .listEventos4 {
-	@extend %listEventosNoDT;
+	@extend %listCompNoDT;
 	#contenidoAux & dd.fechaInscripcion {
 		@include offleft;
 	}
@@ -533,7 +603,7 @@
 
 //listEventosComplejo5
 .listEventos5 {
-	@extend %listEventosDT;
+	@extend %listCompDT;
 	& dd[class^="fechas"]:before  {
 				display: none; 
 	}
@@ -541,7 +611,7 @@
 
 //listEventosComplejo6
 .listEventos6 {
-	@extend %listEventosNoDT;
+	@extend %listCompNoDT;
 	& .listadoResultados > li > a {
 		text-transform: none;
 	}
@@ -549,12 +619,12 @@
 
 //listEventosComplejo8
 .listEventos8 {
-	@extend %listEventosDT;
+	@extend %listCompDT;
 }
 
 //listEventosComplejo9
 .listEventos9 {
-	@extend %listEventosDT;
+	@extend %listCompDT;
 }
 
 //ListadoEntidad
@@ -629,10 +699,3 @@
 		}
 	}
 } 
-
-
-
-
-
-
-
