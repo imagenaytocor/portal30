@@ -299,6 +299,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/adolescencia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48364,
+		"inputAbbreviatedPath": "\/images\/adolescencia.jpg",
+		"outputAbbreviatedPath": "\/images\/adolescencia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/agora.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -471,6 +482,17 @@
 		"initialSize": 990,
 		"inputAbbreviatedPath": "\/images\/ciudad.png",
 		"outputAbbreviatedPath": "\/images\/ciudad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ciudadDios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52041,
+		"inputAbbreviatedPath": "\/images\/ciudadDios.jpg",
+		"outputAbbreviatedPath": "\/images\/ciudadDios.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -914,6 +936,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/escombros.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10408,
+		"inputAbbreviatedPath": "\/images\/escombros.jpg",
+		"outputAbbreviatedPath": "\/images\/escombros.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/eventoSinImagen.jpg": {
 		"fileType": 16384,
@@ -1432,6 +1465,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/microfisica.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12122,
+		"inputAbbreviatedPath": "\/images\/microfisica.jpg",
+		"outputAbbreviatedPath": "\/images\/microfisica.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ocio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1450,6 +1494,17 @@
 		"initialSize": 2028,
 		"inputAbbreviatedPath": "\/images\/perfilPie.jpg",
 		"outputAbbreviatedPath": "\/images\/perfilPie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/picasso.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15659,
+		"inputAbbreviatedPath": "\/images\/picasso.jpg",
+		"outputAbbreviatedPath": "\/images\/picasso.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3717,6 +3772,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/partials\/_cajaBuscadorResultado.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_cajaBuscadorResultado.scss",
+		"outputAbbreviatedPath": "\/estilos\/_cajaBuscadorResultado.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/partials\/_cajaGenerica.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
@@ -3934,22 +4005,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_formularioContacto.scss",
 		"outputAbbreviatedPath": "\/estilos\/_formularioContacto.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/partials\/_grids.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 1,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/_grids.scss",
-		"outputAbbreviatedPath": "\/estilos\/_grids.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
