@@ -607,7 +607,7 @@
 		@include flex-flow(row wrap);
 		margin-left: 0;
 	}
-	& li {
+	& .listadoResultados li {
 		@include flex-basis(100%);
 		margin: .5em 1%;
 		@include breakpoints (bigPhone) {
