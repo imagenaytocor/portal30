@@ -551,7 +551,6 @@
 		}
 	}
 	& dd[class^="nota"] {
-		margin-left: 19%;
 		padding-left: 0;
 		&:before  {
 				content: '\f05a';
@@ -561,12 +560,6 @@
 			  @include rem('font-size',20px); 
 			  line-height: 1;
 			  margin-right:.75em;
-		}
-		@include breakpoints(bigPhone) {
-			margin-left: 23%;
-		}
-		@include breakpoints(tablet) {
-			margin-left: 25%;
 		}
 	}
 }
@@ -641,5 +634,8 @@
 		& dd[class^="nota"] {
 		    margin-left: 0;
 		}
+	}
+	&.lstComConEti dd[class^="nota"] {
+	    margin-left: 18%;
 	}
 } 
