@@ -103,8 +103,8 @@
 		&.foursquare a:before {
 			content: '\f180';
 		}
-		&.enviar a:before {
-			content: '\f0e0';
+		&.enviarAmigo a:before {
+			content: '\f003';
 			@include rem('font-size',24px);
 		}
 		& .rss a:before {
