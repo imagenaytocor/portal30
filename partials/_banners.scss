@@ -555,3 +555,19 @@ span.fa {
 		}
 	} 
 }
+
+.bannerFAcirc {
+	& .fa {
+		height: auto;
+		margin: 1em 25%;
+		padding-top: 40%;
+		width: 50%;
+		border-radius: 50%;
+		background-color: $enlace;
+		color: $blanco;
+		&:before {
+			border:1px solid red;
+			padding: -25%;
+		}
+	}
+}
