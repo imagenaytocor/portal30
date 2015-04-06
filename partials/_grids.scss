@@ -74,6 +74,7 @@ body:after {
 
 #contenidoCentralSuperior {
 	padding: 1.5em 3.125%;
+	width: 100%;
 	@include breakpoints(tablet){
 		@include display-flex;
 	}
