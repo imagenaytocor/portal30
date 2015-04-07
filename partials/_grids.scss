@@ -155,9 +155,13 @@ body:after {
 	}
 }
 
+.colCaja {
+	margin-bottom: 1.5em;
+}
+
 .row {
 	float: left;
-	margin: .5em 0;
+	margin: .5em 0 1em;
 	& .row {
 		margin-top: 0;
 	}
@@ -180,7 +184,7 @@ body:after {
 		@include flex-wrap(wrap);
 		@include justify-content(space-between);
 		@include align-content(flex-start);
-		margin: .5em 0;
+		margin: .5em 0 1.5em;
 		&.t-25 {
 				@include flex-basis(23%);
 		}

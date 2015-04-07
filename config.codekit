@@ -1917,15 +1917,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/indexServiciossociales.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/indexServiciossociales.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/js\/accordion_desktop.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3443,15 +3434,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/indexServiciossociales.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/indexServiciossociales.kit",
-		"outputAbbreviatedPath": "\/indexServiciossociales.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/modules\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
@@ -3621,22 +3603,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_actualidadPortada.scss",
 		"outputAbbreviatedPath": "\/estilos\/_actualidadPortada.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/partials\/_banners.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 1,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/partials\/_banners.scss",
-		"outputAbbreviatedPath": "\/estilos\/_banners.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

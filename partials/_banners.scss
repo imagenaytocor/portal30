@@ -565,7 +565,7 @@ span.fa {
 			.#{nth($a, 1)} & {
 				background-color: nth($a, 2);
 			}
-		}
+		} 
 		@include border-radius(50%);
 		color: $blanco;
 		@include rem('font-size',30px);
