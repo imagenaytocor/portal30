@@ -557,17 +557,55 @@ span.fa {
 }
 
 .bannerFAcirc {
+	border: 1px solid $grisBorde;
+	margin-bottom: .5em;
 	& .fa {
-		height: auto;
-		margin: 1em 25%;
-		padding-top: 40%;
-		width: 50%;
-		border-radius: 50%;
 		background-color: $enlace;
-		color: $blanco;
-		&:before {
-			border:1px solid red;
-			padding: -25%;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				background-color: nth($a, 2);
+			}
 		}
+		@include border-radius(50%);
+		color: $blanco;
+		@include rem('font-size',30px);
+		height: auto;
+		margin: 1em 25% .25em;
+		padding-top: 50%;
+		position: relative;
+		text-align: center;
+		width: 50%;
+		&:before {
+			color: $blanco;
+			left: 0;
+			position: absolute;
+			top: 38%;
+			width: 100%;
+		}
+	}
+	& p {
+		padding: .15em .5em 0;
+		text-align: center;
+		width: 100%;
+		& span {
+		display: block;
+		}
+		& .linea1banner {
+			color: $enlace;
+			@each $a in $site-color {
+				.#{nth($a, 1)} & {
+					color: nth($a, 2);
+				}
+			}
+			margin-bottom: .5em;
+			text-transform: uppercase;
+		}
+		& .linea2banner {
+			color: $grisTexto;
+			@include rem('font-size',16px);
+		}
+	}
+	&.m-50:nth-of-type(2n+1) {
+		clear: left;
 	}
 }
