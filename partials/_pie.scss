@@ -42,7 +42,7 @@
 .enlacesPie {
 	@include flex-basis(100%);
 	margin-top: .5em;
-	padding: 3.125%;
+	padding: 1.5625% 3.125%;
 	@include order(3);
 	@include breakpoints(tablet){
 		@include display-flex;
