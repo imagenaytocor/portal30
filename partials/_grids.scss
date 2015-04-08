@@ -110,6 +110,9 @@ body:after {
 		@include flex-basis(66%); 
 		padding: 1.5em 1% 1.5em 3.125%;
 		width: auto;
+		.no-flexboxlegacy & {
+			flex-basis:58%;
+		}
 	}
 }
 
