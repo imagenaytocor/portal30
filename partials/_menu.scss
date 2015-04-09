@@ -290,6 +290,10 @@
 	}
 }
 
+.toggle-sub {
+	margin: 0 .25em;
+}
+
 %menuPrincipal_site {
 	@include breakpoints(tablet) {
 		& > li {
