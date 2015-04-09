@@ -1410,6 +1410,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/hero1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77223,
+		"inputAbbreviatedPath": "\/images\/hero1.jpg",
+		"outputAbbreviatedPath": "\/images\/hero1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icon.aytocor.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3026,6 +3037,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_headCmix.kit",
 		"outputAbbreviatedPath": "\/_headCmix.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/_heroCultura.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/_heroCultura.kit",
+		"outputAbbreviatedPath": "\/_heroCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
