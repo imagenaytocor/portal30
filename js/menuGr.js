@@ -30,20 +30,37 @@ $('.menuPrincipal .subMenu').css({
   display: "none",
   //left: "auto"
 });
-$('.menuPrincipal .nivel1 > li').hover(function() {
-  $(this)
+
+var icMenuPrin = '<a href="#" class="toggle-sub"><i class="fa fa-angle-down"></i></a>';
+$('.menuPrincipal .nivel1 > li').has('div').append(icMenuPrin);
+
+$('.toggle-sub').click(function() {
+	$(this).parents('ul.nivel1').find('div.subMenu').fadeOut('slow');
+   var $this=$(this).parent().find('.subMenu');        
+   if($this.is(':visible'))
+    {
+      $this.fadeOut('slow');
+    } else{
+    	$this.slideDown('slow');
+    }
+ });
+
+/*$('.toggle-sub').hover(function() {
+  $(this).parent()
     .find('.subMenu')
     .toggleClass('menuAbierto')
     .stop(true, true)
     .delay(400)
     .slideDown('slow');
     }, function() {
-      $(this)
+      $(this).parent()
         .find('.subMenu')
         .toggleClass('menuAbierto')
         .stop(true,true)
         .fadeOut('slow');
-});
+});*/
+
+
 // no funciona el enlace de segundo nivel en Bibliotecas
 /*$('.site_1382936859765 .menuPrincipal').find('ul.nivel2 > li > a').click(function( event ) {
   event.preventDefault();
