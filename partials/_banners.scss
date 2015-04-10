@@ -609,3 +609,55 @@ span.fa {
 		clear: left;
 	}
 }
+
+.bannerHero {
+	background-size: cover;
+	height: 11.875em;
+	margin: 0 0 1em;
+	position: relative;
+	& p {
+		width: 50%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	& a {
+		color: $blanco;
+		display: block;
+		height: 86%;
+		padding: 15% 5% 0;
+		text-align: center;
+	}
+	& span.linea1banner {
+		display: block;
+		@include rem('font-size',20px);
+		margin-bottom: 1em;
+	}
+	& span.linea2banner em {
+		border: 1px solid $blanco;
+		@include border-radius(0.3em);
+		padding: .25em .75em;
+	}
+	@include breakpoints(bigPhone){
+		height: 18em;
+	}
+	@include breakpoints(tablet){
+		height: 25.5em;
+		& a {
+			height: 69%;
+			padding: 35% 5% 0;
+		}
+		& span.linea1banner {
+			@include rem('font-size',30px);
+		}
+	}
+	@include breakpoints(desktop){
+		height: 22.289em;
+	}
+	@include breakpoints(medDesktop){
+		height: 25.066em;
+	}
+	@include breakpoints(bigDesktop){
+		height: 27.8437em;
+	}
+	
+}

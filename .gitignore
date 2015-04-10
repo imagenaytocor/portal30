@@ -13,4 +13,8 @@ estilos/principal.css
 
 portal30.esproj/user.julio.espressostorage
 
+<<<<<<< HEAD
 portal30.esproj/user.julioff.espressostorage
+=======
+*.espressostorage
+>>>>>>> randomHero
