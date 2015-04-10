@@ -210,8 +210,8 @@ body:after {
 			}
 		&.d-33 {
 				@include flex-basis(32%);
-				flex-flow: column nowrap;
-				justify-content: flex-start;
+				//flex-flow: column nowrap;
+				//justify-content: flex-start;
 			}
 		&.d-50 {
 				@include flex-basis(48%);
