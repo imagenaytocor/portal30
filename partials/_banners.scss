@@ -8,11 +8,7 @@
 		height: 10.45em;
 		margin-bottom: 1em;
 		position: relative;
-		
-		&:first-of-type {
-			display:block;
-			width: 100%;
-		}
+		width: 100%;
 		@include breakpoints(bigPhone){
 			display: block;
 			float: left;
@@ -20,11 +16,10 @@
 			width: 48%;
 			&:first-of-type {
 				height: 15.1em;
-
+				width: 100%;
 			}
 			&:nth-of-type(even){
 				margin-right: 4%;
-
 			}
 		}
 		@include breakpoints(tablet){
@@ -32,9 +27,6 @@
 			&:first-of-type {
 				height: 20em;
 				}		
-		}
-		@include breakpoints(desktop){
-					
 		}
 		& p {
 			bottom: 4px;
