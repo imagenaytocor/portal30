@@ -126,7 +126,7 @@
 		color: $grisTexto;
 	}
 	& .bannerUnaLinea p.linea1cajaPromocion a {
-		color: $colorBibliotecas;
+		color: @altColor($colorBibliotecas); 
 	}
 	& .fondoColor p.linea1cajaPromocion a {
 		color: $blanco;
