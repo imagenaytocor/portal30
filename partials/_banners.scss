@@ -1,32 +1,32 @@
 //_banners.scss
 
 .destacadosPortada {
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+	@include flex-wrap(wrap);
 	& .cajaBanner {
 		background-repeat: no-repeat;
 		background-size: cover;
-		display: none;
 		height: 10.45em;
 		margin-bottom: 1em;
 		position: relative;
-		width: 100%;
-		@include breakpoints(bigPhone){
-			display: block;
-			float: left;
-			height: 7.35em;
-			width: 48%;
-			&:first-of-type {
+		width: 48%;
+		&.m-100 {
+			@include flex-basis(100%);
+			@include breakpoints(bigPhone){
 				height: 15.1em;
-				width: 100%;
 			}
-			&:nth-of-type(even){
-				margin-right: 4%;
+			@include breakpoints(bigPhone){
+				height: 20em;
 			}
 		}
+		@include breakpoints(bigPhone){
+			@include flex-basis(48%);
+			height: 7.35em;
+		}
 		@include breakpoints(tablet){
-			height: 12.5em;
-			&:first-of-type {
-				height: 20em;
-				}		
+			height: 12.5em;		
 		}
 		& p {
 			bottom: 4px;
@@ -34,14 +34,10 @@
 		}
 	}
 	& .promocionContenido {
-		display: none;
 		height: 10.45em;
 		margin-bottom: 1em;
 		position: relative;
-		&:first-of-type {
-			display:block;
-			width: 100%;
-		}
+		@include flex-basis(48%);
 		& .imagenPromocion {
 			height: 100%;
 			overflow: hidden;
@@ -55,19 +51,12 @@
 			display: block;
 			float: left;
 			height: 10.45em;
-			width: 48%;
-			&:first-of-type {
-				height: 15.1em;
-			}
-			&:nth-of-type(even){
-				margin-right: 4%;
-			}
+			@include flex-basis(48%);
+		
 		}
 		@include breakpoints(tablet){
 			height: 12.5em;
-			&:first-of-type {
-				height: 20em;
-			}
+			
 		}
 	}
 	& p {
