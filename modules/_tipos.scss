@@ -79,7 +79,7 @@
 		color: $enlaceVisitado;
 		@each $a in $site-color {
 			.#{nth($a, 1)} & {
-				color: (darken(nth($a, 2), 5%));
+				color: (lighten(nth($a, 2), 5%));
 			}
 		}
 	}

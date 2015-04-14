@@ -13,12 +13,9 @@
 	}
 }
 
-//Ocultar relacionados en programa, fechaInscripcion en listado 
+//Ocultar relacionados en programa, fechaInscripcion en listado
 
 .site_1382936859765 {
-	& a {
-		font-weight: $regular;
-	}
 	& #menuMapaWeb .menu_1424941872927 {
 		@include breakpoints(desktop) {
 			@include offleft;
@@ -26,11 +23,9 @@
 	}
 	& h1 {
 		@include rem('font-size', 33px);
+		font-weight: $light;
 		padding-bottom: 1em;
 		top: 3.1em;
-		& a {
-			font-weight: $light;
-		}
 		@include breakpoints(bigPhone) {
 			@include rem('font-size', 40px);
 			padding-bottom: .9em;
@@ -107,7 +102,7 @@
 	& .detallePrograma li:before,
 	& .detallePrograma li > a {
 		@include offleft;
-	} 
+	}
 	& #detalleEntidad .relacionados {
 		display: none;
 	}
@@ -126,13 +121,12 @@
 	}
 	& .destacadosPortada p {
 		font-weight: $regular;
-	} 
+	}
 	& p.linea1cajaPromocion a {
 		color: $grisTexto;
 	}
 	& .bannerUnaLinea p.linea1cajaPromocion a {
-		//@include altColor($colorBibliotecas);
-		color: $colorBibliotecas; 
+		color: @altColor($colorBibliotecas); 
 	}
 	& .fondoColor p.linea1cajaPromocion a {
 		color: $blanco;
@@ -142,16 +136,6 @@
 	}*/
 	& #outdated {
 		background-image: url('//estaticos.coruna.es/imagesdu/bibliotecas.jpg');
-	}
-	// Ajustes verde
-	
-	& .destacadosPortada span.linea1banner {
-	    background-color: $colorBibliotecas;
-	    color: $blanco;
-	    font-weight: $medium;
-	}
-	& .destacadosPortada span.linea2banner {
-	    border-top: 3px solid $blanco;
 	}
 }
 
