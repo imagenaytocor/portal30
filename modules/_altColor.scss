@@ -1,14 +1,9 @@
-//$bg-color: #d0d0d0;
-//body {
-//  background: #bg-color;
-//  color: @altColor($bg-color); 
-//}
-
-@mixin altColor ( $test-this-color ) { 
-  @if ( lightness($test-this-color) > 60% ) {
-    return #d2691e; 
-  } 
-  @else {
-    return #006400; 
-  }
+@mixin altColor($test-this-color) {
+	@if lightness($test-this-color) > 43% {
+		color: $test-this-color;
+	} 
+	@else {
+		color: $grisTexto;
+		background-color: $test-this-color;
+	} 
 }
