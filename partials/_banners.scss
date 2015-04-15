@@ -597,16 +597,23 @@ span.fa {
 	margin: 0 0 1em;
 	position: relative;
 	& p {
-		width: 50%;
-		height: 100%;
 		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
+		margin-bottom: 0;
+		width: 50%;
 	}
 	& a {
 		color: $blanco;
 		display: block;
-		height: 86%;
-		padding: 15% 5% 0;
+		height: 100%;
+		padding: 0 5%;
 		text-align: center;
+	}
+	& span {
+		display: block;
+		position: relative;
+		top: 50%;
+		@include transform(translateY(-50%));
 	}
 	& span.linea1banner {
 		display: block;
@@ -623,10 +630,6 @@ span.fa {
 	}
 	@include breakpoints(tablet){
 		height: 25.5em;
-		& a {
-			height: 69%;
-			padding: 35% 5% 0;
-		}
 		& span.linea1banner {
 			@include rem('font-size',30px);
 		}
