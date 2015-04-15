@@ -608,11 +608,18 @@ span.fa {
 	height: 11.875em;
 	margin: 0 0 1em;
 	position: relative;
+	&:only-child {
+		margin-bottom:0;
+	}
 	& p {
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba($negro, 0.35);
 		height: 100%;
 		margin-bottom: 0;
-		width: 50%;
+		width: 100%;
+		@include breakpoints(bigPhone) {
+			background-color: rgba($negro, 0.5);
+			width: 50%;
+		}
 	}
 	& a {
 		color: $blanco;
