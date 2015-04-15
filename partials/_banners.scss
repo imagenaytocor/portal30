@@ -12,15 +12,6 @@
 		margin-bottom: 1em;
 		position: relative;
 		width: 48%;
-		&.m-100 {
-			@include flex-basis(100%);
-			@include breakpoints(bigPhone){
-				height: 15.1em;
-			}
-			@include breakpoints(bigPhone){
-				height: 20em;
-			}
-		}
 		@include breakpoints(bigPhone){
 			@include flex-basis(48%);
 			height: 7.35em;
@@ -31,6 +22,27 @@
 		& p {
 			bottom: 4px;
 			position: absolute;
+		}
+		&.m-100 {
+			@include flex-basis(100%);
+			@include breakpoints(bigPhone){
+				height: 15.1em;
+			}
+			@include breakpoints(bigPhone){
+				height: 20em;
+			}
+		}
+		&.t-33 {
+			@include breakpoints(tablet){
+				@include flex-basis(31%);
+				height: 12.5em;
+			}
+		}
+		&.t-50 {
+			@include breakpoints(tablet){
+				@include flex-basis(49%);
+				height: 12.5em;
+			}
 		}
 	}
 	& .promocionContenido {
