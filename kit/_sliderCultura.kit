@@ -1,8 +1,9 @@
 <div class="cajaSlider sliderDestacado m-100 "><script type="text/javascript">
 jQuery(document).ready(function(){
-	jQuery('#S1322783534817').anythingSlider({autoPlay : true, autoPlayLocked : false, buildArrows : false, delay : 5000, enableStartStop : true, expand : true, resumeDelay : 5000, toggleControls : false}) 
+	jQuery('#S1322783534817')
+	//.anythingSlider({autoPlay : true, autoPlayLocked : false, buildArrows : false, delay : 5000, enableStartStop : true, expand : true, resumeDelay : 5000, toggleControls : false, hashTags : false}) 
 		
-	
+		.anythingSlider({autoPlay : true,buildArrows : true,buildNavigation : true,buildStartStop : false,infiniteSlides : false,navigationFormatter : function(i, panel){return panel.find('p.tituloImagen').text();},startStopped : false,stopAtEnd : false, hashTags : false})
 			
 		.find('.panel:not(.cloned) img') 
 		.attr('rel','group')           // add all slider images to a colorbox group
