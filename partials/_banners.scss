@@ -620,6 +620,14 @@ span.fa {
 		height: 100%;
 		padding: 0 5%;
 		text-align: center;
+		&:hover {
+			background-color: rgba(lighten($enlace, 35%),.25);
+			@each $a in $site-color {
+				.#{nth($a, 1)} & {
+					background-color: rgba(lighten(nth($a, 2), 35%),.25);
+				}
+			}
+		}
 	}
 	& span {
 		display: block;
