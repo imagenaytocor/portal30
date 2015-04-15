@@ -130,16 +130,6 @@
 	& p.linea1cajaPromocion a {
 		color: $grisTexto;
 	}
-	& .bannerUnaLinea p.linea1cajaPromocion a {
-		//@include altColor($colorBibliotecas);
-		color: $colorBibliotecas; 
-	}
-	& .fondoColor p.linea1cajaPromocion a {
-		color: $blanco;
-	}
-	/*& .holder {
-		@include offleft;
-	}*/
 	& #outdated {
 		background-image: url('//estaticos.coruna.es/imagesdu/bibliotecas.jpg');
 	}
@@ -152,6 +142,17 @@
 	}
 	& .destacadosPortada span.linea2banner {
 	    border-top: 3px solid $blanco;
+	}
+	& .bannerUnaLinea p.linea1cajaPromocion a {
+		color: $colorBibliotecas;
+		font-weight: $medium;
+	}
+	& .fondoColor p.linea1cajaPromocion a {
+		color: $blanco;
+	}
+	& .ui-datepicker-prev,
+	& .ui-datepicker-next {
+		font-weight: $medium;
 	}
 }
 
