@@ -2635,7 +2635,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_accesoRapido.kit",
-		"outputAbbreviatedPath": "\/_accesoRapido.html",
+		"outputAbbreviatedPath": "\/kit\/_accesoRapido.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2644,7 +2644,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_accesoRapidoBibliotecas.kit",
-		"outputAbbreviatedPath": "\/_accesoRapidoBibliotecas.html",
+		"outputAbbreviatedPath": "\/kit\/_accesoRapidoBibliotecas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2653,7 +2653,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_accesoRapidoCmix.kit",
-		"outputAbbreviatedPath": "\/_accesoRapidoCmix.html",
+		"outputAbbreviatedPath": "\/kit\/_accesoRapidoCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2662,7 +2662,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_accesoRapidoCultura.kit",
-		"outputAbbreviatedPath": "\/_accesoRapidoCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_accesoRapidoCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2671,7 +2671,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_accesoRapidoMedioambiente.kit",
-		"outputAbbreviatedPath": "\/_accesoRapidoMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/_accesoRapidoMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2680,7 +2680,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_actualidadPortada.kit",
-		"outputAbbreviatedPath": "\/_actualidadPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_actualidadPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2689,7 +2689,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_bannersPortada.kit",
-		"outputAbbreviatedPath": "\/_bannersPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_bannersPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2698,7 +2698,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_barraCompartir.kit",
-		"outputAbbreviatedPath": "\/_barraCompartir.html",
+		"outputAbbreviatedPath": "\/kit\/_barraCompartir.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2707,7 +2707,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_barraHerramientas.kit",
-		"outputAbbreviatedPath": "\/_barraHerramientas.html",
+		"outputAbbreviatedPath": "\/kit\/_barraHerramientas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2716,7 +2716,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorAvisosPortada.kit",
-		"outputAbbreviatedPath": "\/_buscadorAvisosPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorAvisosPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2725,7 +2725,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorCalendario.kit",
-		"outputAbbreviatedPath": "\/_buscadorCalendario.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorCalendario.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2734,7 +2734,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorCalendarioCultura.kit",
-		"outputAbbreviatedPath": "\/_buscadorCalendarioCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorCalendarioCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2743,7 +2743,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorEventosPortada.kit",
-		"outputAbbreviatedPath": "\/_buscadorEventosPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorEventosPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2752,7 +2752,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorFormulario.kit",
-		"outputAbbreviatedPath": "\/_buscadorFormulario.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorFormulario.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2761,7 +2761,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorFormularioCultura.kit",
-		"outputAbbreviatedPath": "\/_buscadorFormularioCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorFormularioCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2770,7 +2770,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorNoticiasPortada.kit",
-		"outputAbbreviatedPath": "\/_buscadorNoticiasPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorNoticiasPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2779,7 +2779,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorResultado.kit",
-		"outputAbbreviatedPath": "\/_buscadorResultado.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorResultado.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2788,7 +2788,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_buscadorResultadoPeventos.kit",
-		"outputAbbreviatedPath": "\/_buscadorResultadoPeventos.html",
+		"outputAbbreviatedPath": "\/kit\/_buscadorResultadoPeventos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2797,7 +2797,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabecera.kit",
-		"outputAbbreviatedPath": "\/_cabecera.html",
+		"outputAbbreviatedPath": "\/kit\/_cabecera.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2806,7 +2806,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabeceraBibliotecas.kit",
-		"outputAbbreviatedPath": "\/_cabeceraBibliotecas.html",
+		"outputAbbreviatedPath": "\/kit\/_cabeceraBibliotecas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2815,7 +2815,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabeceraCmix.kit",
-		"outputAbbreviatedPath": "\/_cabeceraCmix.html",
+		"outputAbbreviatedPath": "\/kit\/_cabeceraCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2824,7 +2824,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabeceraCultura.kit",
-		"outputAbbreviatedPath": "\/_cabeceraCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_cabeceraCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2833,7 +2833,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabeceraMedioambiente.kit",
-		"outputAbbreviatedPath": "\/_cabeceraMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/_cabeceraMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2842,7 +2842,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cabeceraServiciossociales.kit",
-		"outputAbbreviatedPath": "\/_cabeceraServiciossociales.html",
+		"outputAbbreviatedPath": "\/kit\/_cabeceraServiciossociales.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2851,7 +2851,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaAccesoRapido.kit",
-		"outputAbbreviatedPath": "\/_cajaAccesoRapido.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaAccesoRapido.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2860,7 +2860,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaAcordeon.kit",
-		"outputAbbreviatedPath": "\/_cajaAcordeon.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaAcordeon.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2869,7 +2869,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaBannerContenido.kit",
-		"outputAbbreviatedPath": "\/_cajaBannerContenido.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaBannerContenido.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2878,7 +2878,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaBuscador.kit",
-		"outputAbbreviatedPath": "\/_cajaBuscador.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaBuscador.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2887,7 +2887,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaBuscadorCategorias.kit",
-		"outputAbbreviatedPath": "\/_cajaBuscadorCategorias.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaBuscadorCategorias.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2896,7 +2896,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaBuscadorEventosPortada.kit",
-		"outputAbbreviatedPath": "\/_cajaBuscadorEventosPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaBuscadorEventosPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2905,7 +2905,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajaDesplegable.kit",
-		"outputAbbreviatedPath": "\/_cajaDesplegable.html",
+		"outputAbbreviatedPath": "\/kit\/_cajaDesplegable.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2914,7 +2914,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_cajasFA.kit",
-		"outputAbbreviatedPath": "\/_cajasFA.html",
+		"outputAbbreviatedPath": "\/kit\/_cajasFA.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2923,7 +2923,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortada.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortada.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2932,7 +2932,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortadaBibliotecas.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortadaBibliotecas.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortadaBibliotecas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2941,7 +2941,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortadaCmix.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortadaCmix.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortadaCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2950,7 +2950,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortadaCultura.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortadaCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortadaCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2959,7 +2959,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortadaMedioambiente.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortadaMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortadaMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2968,7 +2968,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_destacadosPortadaServiciossociales.kit",
-		"outputAbbreviatedPath": "\/_destacadosPortadaServiciossociales.html",
+		"outputAbbreviatedPath": "\/kit\/_destacadosPortadaServiciossociales.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2977,7 +2977,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_detalleGobierno.kit",
-		"outputAbbreviatedPath": "\/_detalleGobierno.html",
+		"outputAbbreviatedPath": "\/kit\/_detalleGobierno.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2986,7 +2986,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_detalleSuperCont.kit",
-		"outputAbbreviatedPath": "\/_detalleSuperCont.html",
+		"outputAbbreviatedPath": "\/kit\/_detalleSuperCont.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2995,7 +2995,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_detalleTramite.kit",
-		"outputAbbreviatedPath": "\/_detalleTramite.html",
+		"outputAbbreviatedPath": "\/kit\/_detalleTramite.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3004,7 +3004,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_entidad.kit",
-		"outputAbbreviatedPath": "\/_entidad.html",
+		"outputAbbreviatedPath": "\/kit\/_entidad.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3013,7 +3013,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_enviarRecibir.kit",
-		"outputAbbreviatedPath": "\/_enviarRecibir.html",
+		"outputAbbreviatedPath": "\/kit\/_enviarRecibir.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3022,7 +3022,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_evento.kit",
-		"outputAbbreviatedPath": "\/_evento.html",
+		"outputAbbreviatedPath": "\/kit\/_evento.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3031,7 +3031,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_eventoCmix.kit",
-		"outputAbbreviatedPath": "\/_eventoCmix.html",
+		"outputAbbreviatedPath": "\/kit\/_eventoCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3040,7 +3040,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_eventoCultura.kit",
-		"outputAbbreviatedPath": "\/_eventoCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_eventoCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3049,7 +3049,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_head.kit",
-		"outputAbbreviatedPath": "\/_head.html",
+		"outputAbbreviatedPath": "\/kit\/_head.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3058,7 +3058,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_headCmix.kit",
-		"outputAbbreviatedPath": "\/_headCmix.html",
+		"outputAbbreviatedPath": "\/kit\/_headCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3067,7 +3067,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_heroCultura.kit",
-		"outputAbbreviatedPath": "\/_heroCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_heroCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3076,7 +3076,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_jsPie.kit",
-		"outputAbbreviatedPath": "\/_jsPie.html",
+		"outputAbbreviatedPath": "\/kit\/_jsPie.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3085,7 +3085,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_noticia.kit",
-		"outputAbbreviatedPath": "\/_noticia.html",
+		"outputAbbreviatedPath": "\/kit\/_noticia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3094,7 +3094,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_paginadorInf.kit",
-		"outputAbbreviatedPath": "\/_paginadorInf.html",
+		"outputAbbreviatedPath": "\/kit\/_paginadorInf.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3103,7 +3103,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_paginadorSup.kit",
-		"outputAbbreviatedPath": "\/_paginadorSup.html",
+		"outputAbbreviatedPath": "\/kit\/_paginadorSup.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3112,7 +3112,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_perfilesAgenda.kit",
-		"outputAbbreviatedPath": "\/_perfilesAgenda.html",
+		"outputAbbreviatedPath": "\/kit\/_perfilesAgenda.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3121,7 +3121,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_pestanas.kit",
-		"outputAbbreviatedPath": "\/_pestanas.html",
+		"outputAbbreviatedPath": "\/kit\/_pestanas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3130,7 +3130,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_piePortal.kit",
-		"outputAbbreviatedPath": "\/_piePortal.html",
+		"outputAbbreviatedPath": "\/kit\/_piePortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3139,7 +3139,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_piePortal20.kit",
-		"outputAbbreviatedPath": "\/_piePortal20.html",
+		"outputAbbreviatedPath": "\/kit\/_piePortal20.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3148,7 +3148,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_programa.kit",
-		"outputAbbreviatedPath": "\/_programa.html",
+		"outputAbbreviatedPath": "\/kit\/_programa.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3157,7 +3157,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_programaBiblio.kit",
-		"outputAbbreviatedPath": "\/_programaBiblio.html",
+		"outputAbbreviatedPath": "\/kit\/_programaBiblio.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3166,7 +3166,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_redesSocialesCabecera.kit",
-		"outputAbbreviatedPath": "\/_redesSocialesCabecera.html",
+		"outputAbbreviatedPath": "\/kit\/_redesSocialesCabecera.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3175,7 +3175,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_relacionados.kit",
-		"outputAbbreviatedPath": "\/_relacionados.html",
+		"outputAbbreviatedPath": "\/kit\/_relacionados.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3184,7 +3184,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_slider100bibliotecas.kit",
-		"outputAbbreviatedPath": "\/_slider100bibliotecas.html",
+		"outputAbbreviatedPath": "\/kit\/_slider100bibliotecas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3193,7 +3193,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_slider100portada.kit",
-		"outputAbbreviatedPath": "\/_slider100portada.html",
+		"outputAbbreviatedPath": "\/kit\/_slider100portada.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3202,7 +3202,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_sliderCultura.kit",
-		"outputAbbreviatedPath": "\/_sliderCultura.html",
+		"outputAbbreviatedPath": "\/kit\/_sliderCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3211,7 +3211,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_tabla.kit",
-		"outputAbbreviatedPath": "\/_tabla.html",
+		"outputAbbreviatedPath": "\/kit\/_tabla.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3220,7 +3220,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_textoGenerico.kit",
-		"outputAbbreviatedPath": "\/_textoGenerico.html",
+		"outputAbbreviatedPath": "\/kit\/_textoGenerico.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3229,7 +3229,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_tiraBanners.kit",
-		"outputAbbreviatedPath": "\/_tiraBanners.html",
+		"outputAbbreviatedPath": "\/kit\/_tiraBanners.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3238,7 +3238,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/_variables.kit",
-		"outputAbbreviatedPath": "\/_variables.html",
+		"outputAbbreviatedPath": "\/kit\/_variables.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3247,7 +3247,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/buscadorCategorias.kit",
-		"outputAbbreviatedPath": "\/buscadorCategorias.html",
+		"outputAbbreviatedPath": "\/kit\/buscadorCategorias.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3256,7 +3256,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/buscadorListado.kit",
-		"outputAbbreviatedPath": "\/buscadorListado.html",
+		"outputAbbreviatedPath": "\/kit\/buscadorListado.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3265,7 +3265,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/buscadorListadoCmix.kit",
-		"outputAbbreviatedPath": "\/buscadorListadoCmix.html",
+		"outputAbbreviatedPath": "\/kit\/buscadorListadoCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3274,7 +3274,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/buscadorListadoCultura.kit",
-		"outputAbbreviatedPath": "\/buscadorListadoCultura.html",
+		"outputAbbreviatedPath": "\/kit\/buscadorListadoCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3283,7 +3283,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/buscadorListadoMedioambiente.kit",
-		"outputAbbreviatedPath": "\/buscadorListadoMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/buscadorListadoMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3292,7 +3292,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleArticle.kit",
-		"outputAbbreviatedPath": "\/detalleArticle.html",
+		"outputAbbreviatedPath": "\/kit\/detalleArticle.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3301,7 +3301,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleContenidoCmix.kit",
-		"outputAbbreviatedPath": "\/detalleContenidoCmix.html",
+		"outputAbbreviatedPath": "\/kit\/detalleContenidoCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3310,7 +3310,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEntidadCmix.kit",
-		"outputAbbreviatedPath": "\/detalleEntidadCmix.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEntidadCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3319,7 +3319,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEntidadCultura.kit",
-		"outputAbbreviatedPath": "\/detalleEntidadCultura.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEntidadCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3328,7 +3328,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEntidadMedioambiente.kit",
-		"outputAbbreviatedPath": "\/detalleEntidadMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEntidadMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3337,7 +3337,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEntidadPortal.kit",
-		"outputAbbreviatedPath": "\/detalleEntidadPortal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEntidadPortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3346,7 +3346,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEventoCmix.kit",
-		"outputAbbreviatedPath": "\/detalleEventoCmix.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEventoCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3355,7 +3355,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEventoCultura.kit",
-		"outputAbbreviatedPath": "\/detalleEventoCultura.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEventoCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3364,7 +3364,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEventoMedioambiente.kit",
-		"outputAbbreviatedPath": "\/detalleEventoMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEventoMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3373,7 +3373,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleEventoPortal.kit",
-		"outputAbbreviatedPath": "\/detalleEventoPortal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleEventoPortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3382,7 +3382,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleGobLocal.kit",
-		"outputAbbreviatedPath": "\/detalleGobLocal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleGobLocal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3391,7 +3391,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleNoticiaCmix.kit",
-		"outputAbbreviatedPath": "\/detalleNoticiaCmix.html",
+		"outputAbbreviatedPath": "\/kit\/detalleNoticiaCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3400,7 +3400,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleNoticiaCultura.kit",
-		"outputAbbreviatedPath": "\/detalleNoticiaCultura.html",
+		"outputAbbreviatedPath": "\/kit\/detalleNoticiaCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3409,7 +3409,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleNoticiaMedioambiente.kit",
-		"outputAbbreviatedPath": "\/detalleNoticiaMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/detalleNoticiaMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3418,7 +3418,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleNoticiaPortal.kit",
-		"outputAbbreviatedPath": "\/detalleNoticiaPortal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleNoticiaPortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3427,7 +3427,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detallePestanasPortal.kit",
-		"outputAbbreviatedPath": "\/detallePestanasPortal.html",
+		"outputAbbreviatedPath": "\/kit\/detallePestanasPortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3436,7 +3436,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleProgramaPortal.kit",
-		"outputAbbreviatedPath": "\/detalleProgramaPortal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleProgramaPortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3445,7 +3445,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/detalleTramitePortal.kit",
-		"outputAbbreviatedPath": "\/detalleTramitePortal.html",
+		"outputAbbreviatedPath": "\/kit\/detalleTramitePortal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3454,7 +3454,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/index.kit",
-		"outputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "\/kit\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3463,7 +3463,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexBibliotecas.kit",
-		"outputAbbreviatedPath": "\/indexBibliotecas.html",
+		"outputAbbreviatedPath": "\/kit\/indexBibliotecas.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3472,7 +3472,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexCmix.kit",
-		"outputAbbreviatedPath": "\/indexCmix.html",
+		"outputAbbreviatedPath": "\/kit\/indexCmix.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3481,7 +3481,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexCultura.kit",
-		"outputAbbreviatedPath": "\/indexCultura.html",
+		"outputAbbreviatedPath": "\/kit\/indexCultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3490,7 +3490,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexMedioambiente.kit",
-		"outputAbbreviatedPath": "\/indexMedioambiente.html",
+		"outputAbbreviatedPath": "\/kit\/indexMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3499,7 +3499,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexServiciossociales.kit",
-		"outputAbbreviatedPath": "\/indexServiciossociales.html",
+		"outputAbbreviatedPath": "\/kit\/indexServiciossociales.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3515,6 +3515,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/modules\/_altColor.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/modules\/_altColor.scss",
+		"outputAbbreviatedPath": "\/estilos\/_altColor.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3672,6 +3688,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_actualidadPortada.scss",
 		"outputAbbreviatedPath": "\/estilos\/_actualidadPortada.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/partials\/_banners.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_banners.scss",
+		"outputAbbreviatedPath": "\/estilos\/_banners.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -4749,7 +4781,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
 	"coffeeAutoOutputPathEnabled": 1,
@@ -5323,7 +5355,7 @@
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 1,
+	"kitAutoOutputPathStyle": 0,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathEnabled": 1,
 	"lessAutoOutputPathFilenamePattern": "*.css",
@@ -5356,13 +5388,13 @@
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
 	"sassCreateSourceMap": 0,
-	"sassDebugStyle": 1,
-	"sassDecimalPrecision": 5,
-	"sassOutputStyle": 3,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",

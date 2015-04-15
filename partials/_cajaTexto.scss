@@ -47,7 +47,7 @@
 		position: relative;
 		@include breakpoints(tablet){
 			float: left;
-			margin: 0 1em .5em 0;
+			margin: 0 1em .5em 0 !important;
 			width: 40%;
 		}
 		& p.pieImagen {
