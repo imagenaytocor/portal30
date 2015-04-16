@@ -181,6 +181,12 @@ ul#accesos {
 			content: "\f0e1";
 		}
 	}
+	& .vimeo a {
+		&:before {
+			@extend %socialCabecera;
+			content: "\f194";
+		}
+	}
 }
 
 #buscadorCabecera {
