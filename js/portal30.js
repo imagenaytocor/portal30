@@ -83,6 +83,20 @@ $(function(){
 		$(this).appendTo(listaHermana);
 	});
 	
+	//colores duplicados
+	//Cultura -> Agora, EMM
+	$('.site_1300351791176').addClass('site_1322782055091');
+	$('.site_1300351501660').addClass('site_1322782055091');
+	//MA -> Red de energia
+	$('.site_1327566821900').addClass('site_1322782134412');
+	//ServSoc -> COF, Drogas
+	$('.site_1408670153087').addClass('site_1280301855095');
+	$('.site_1237944294200').addClass('site_1280301855095');
+	//Empleo -> CME, OMIC, Rede
+	$('.site_1346721380160').addClass('site_1352255804703');
+	$('.site_1270542954892').addClass('site_1352255804703');
+	$('.site_1266187561771').addClass('site_1352255804703');
+	
 	outdatedBrowser({
 	        color: '#FFF',
 	        lowerThan: 'transform',
