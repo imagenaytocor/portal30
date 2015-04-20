@@ -1,6 +1,13 @@
 //_cajaGenerica.scss
 
 .cajaGenerica {
+	clear: both;
+	overflow: hidden;
+	& .imagen {
+		float: left;
+		margin: 0 .5em .5em 0;
+		width: 40%;
+	}
 	& ul {
 		list-style: none;
 	}
@@ -12,6 +19,10 @@
 	}
 	& .textoContenido dd {
 		margin-left: 1em;
+	}
+	& + & {
+		border-top: 1px solid $grisBorde;
+		padding-top: 1em;
 	}
 }
 
@@ -27,13 +38,16 @@
 			font-family: $titulos2-font-family;
 		}
 	}
+	& + & {
+		border-top: none;
+		padding-top: 0;
+	}
 }
 
 .cajaDesplegable {
-	 
 	&.cajaGenerica { 
 		background-color: $blanco;
-		border: 1px solid #CCC;
+		border: 1px solid $grisBorde;
 		margin-bottom: .5em;
 		@include display-flex;
 		@include flex-direction(row);
@@ -43,7 +57,9 @@
 			@include align-self(stretch);
 			background-color: $grisFondo;
 			@include justify-content(space-around);
+			margin: 0;
 			@include order(3);
+			width: auto;
 		}
 		& h3 {
 			color: $enlace;
