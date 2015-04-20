@@ -18,6 +18,9 @@
 .site_1382936859765 {
 	& a {
 		font-weight: $regular;
+		&:hover {
+			color: $blanco;
+		}
 	}
 	& #menuMapaWeb .menu_1424941872927 {
 		@include breakpoints(desktop) {
@@ -154,5 +157,6 @@
 	& .ui-datepicker-next {
 		font-weight: $medium;
 	}
+	
 }
 

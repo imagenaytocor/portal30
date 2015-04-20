@@ -23,8 +23,8 @@
 	& + & {
 		border-top: 1px solid $grisBorde;
 		padding-top: 1em;
-	}
-	.colCaja & + & {
+	}  
+	.row & + & {
 		border-top: none;
 		padding-top: 0; 
 	}
@@ -207,6 +207,10 @@
 	border: 1px solid $grisBorde !important;
 	padding: .5em;
 	margin-bottom: 1em;
+	.colCaja & + & {
+		border-top: none;
+		padding-top: .5em; 
+	}
 	& .textoContenido {
 		background-color: $blanco;
 		padding: .5em;
