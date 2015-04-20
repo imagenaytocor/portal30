@@ -618,6 +618,7 @@ span.fa {
 		width: 100%;
 		@include breakpoints(bigPhone) {
 			background-color: rgba($negro, 0.5);
+			margin-left: 50%;
 			width: 50%;
 		}
 	}
@@ -645,7 +646,6 @@ span.fa {
 	& span.linea1banner {
 		display: block;
 		@include rem('font-size',20px);
-		margin-bottom: 1em;
 	}
 	& span.linea2banner em {
 		border: 1px solid $blanco;
