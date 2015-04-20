@@ -24,10 +24,6 @@
 		border-top: 1px solid $grisBorde;
 		padding-top: 1em;
 	}
-	.colCaja & + & {
-		border: none;
-		padding-top: 0;
-	}
 }
 
 .cajaImgTxt {
