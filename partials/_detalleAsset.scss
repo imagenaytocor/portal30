@@ -125,3 +125,22 @@ li.codigoQR {
 		max-width: 45.7em;
 	}
 }
+
+.docuGen {
+	margin: 0 0 .5em 1.5em;
+	&:last-of-type {
+		margin-bottom: 1.5em;
+	}
+	&:before {
+			color: $negro;
+			content: "\f016";
+			font-family: FontAwesome;  
+			line-height: 1;
+			padding-right: .5em;
+	}
+}
+.docuPdf {
+	&:before {
+			content: "\f1c1";
+	}
+}
