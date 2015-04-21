@@ -142,7 +142,7 @@
 
 .cajaEnlaces { 
 	background-color: $blanco;
-	border: 1px solid #CCC;
+	border: 1px solid #CCC !important;
 	margin-bottom: .5em;
 	padding: 1.5625%;
 	& h2,

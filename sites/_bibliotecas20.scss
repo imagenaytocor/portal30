@@ -157,6 +157,19 @@
 	& .ui-datepicker-next {
 		font-weight: $medium;
 	}
-	
+	& span[class$="_fancy"]{
+		margin: 1% !important;
+		overflow: hidden;
+		width: 98%;
+		& > span {
+			width: 92% !important;
+		}
+		& > a {
+			width: 90%;
+		}
+	}
+	& .mason p {
+		font-style: normal;
+	}
 }
 
