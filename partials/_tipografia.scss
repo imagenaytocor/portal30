@@ -83,6 +83,14 @@ h4 {
 	@include title4-style;
 }
 
+h5 {
+	@include title5-style;
+}
+
+h6 {
+	@include title6-style;
+}
+
 p {
 	@include para-style;
 	&.tituloInterno { 
