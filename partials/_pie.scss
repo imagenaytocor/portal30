@@ -66,6 +66,9 @@
 				border:none;
 			}
 		}
+		& .cajaGenerica + .cajaGenerica {
+		    padding-top: 0;
+		}
 	}
 	& h2 {
 		color: $negro;
