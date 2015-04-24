@@ -43,6 +43,9 @@
 			}
 		}
 	}
+	& .cajaGenerica + .cajaGenerica {
+	    padding-top: 0;
+	}
 }
 
 .tituloAcordeon {
@@ -113,3 +116,4 @@
 		}
 	}
 }
+
