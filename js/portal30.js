@@ -87,8 +87,9 @@ $(function(){
 	//Cultura -> Agora, EMM
 	$('.site_1300351791176').addClass('site_1322782055091');
 	$('.site_1300351501660').addClass('site_1322782055091');
-	//MA -> Red de energia
+	//MA -> Red de energia, Infoambiental 
 	$('.site_1327566821900').addClass('site_1322782134412');
+	$('.site_1332838419278').addClass('site_1322782134412');
 	//ServSoc -> COF, Drogas
 	$('.site_1408670153087').addClass('site_1280301855095');
 	$('.site_1237944294200').addClass('site_1280301855095');
