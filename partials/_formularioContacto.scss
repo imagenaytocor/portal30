@@ -194,3 +194,13 @@ textarea.Error {
 		margin-bottom: 0;
 	}
 }
+
+//Campos eliminados en formularios
+
+//Qué falta en la agenda
+#sf_1430183569439 {
+	& .direccionLocalidad label:last-of-type,
+	& .direccionProvincia {
+		display: none;
+	} 
+}
