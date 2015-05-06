@@ -65,10 +65,11 @@
 			&:last-of-type {
 				border:none;
 			}
-		}
-		& .cajaGenerica + .cajaGenerica {
-		    padding-top: 0;
-		}
+		}		
+	}
+	& .cajaGenerica + .cajaGenerica {
+		border-top: none;
+	   padding-top: .5em;
 	}
 	& h2 {
 		color: $negro;
