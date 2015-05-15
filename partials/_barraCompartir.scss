@@ -140,6 +140,9 @@
 		&.geoLocalizacion a:before {
 				content: "\f041";
 		}
+		&.imprimir a:before {
+				content: "\f02f";
+		}
 	}
 	
 }
