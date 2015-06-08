@@ -489,7 +489,7 @@
 //listado complejo sin etiquetas y con iconos
 .lstIconos {
 	@extend %listCompNoDT;
-	& dd[class^="fechas"] {
+	& dd[class^="fecha"] {
 		padding-left: 0;
 		text-transform: uppercase;
 		&:before  {
