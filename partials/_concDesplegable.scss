@@ -1,6 +1,9 @@
 //_conce.scss
 
 .concDesplegable {
+	& h3 {
+		width: 100%;
+	}
 	& .desConTitulo {
 		background-color: $grisFondo;
 		margin-bottom: 1em;
