@@ -1,6 +1,9 @@
 //_conce.scss
 
 .concDesplegable {
+	&.row {
+		@include justify-content(flex-start);
+	}
 	& h3 {
 		width: 100%;
 	}
