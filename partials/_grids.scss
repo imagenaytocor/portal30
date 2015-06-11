@@ -99,6 +99,9 @@ body:after {
 		& > div:first-of-type {
 				padding-top:.5em;
 		}
+		& > .bannerHero:first-of-type {
+				padding-top: 0;
+		}
 	}
 }
 
