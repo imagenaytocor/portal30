@@ -231,6 +231,7 @@
 		position: absolute;
 		left: 0;
 		width: 100%;
+		z-index: -1;
 		& .wrapper {
 			max-width: 90%;
 			margin: 0px auto;
