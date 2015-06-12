@@ -97,4 +97,25 @@
 			justify-content: flex-start;
 		}
 	}
+	& .requisitos li {
+			border-bottom: 1px dotted $grisBorde;
+			margin-bottom: .25em;
+			padding-bottom: .25em;
+			&:last-of-type {
+				border-bottom:0;
+				margin-bottom:0;
+				padding-bottom: 0;
+			}
+			&:only-child {
+				margin-bottom:0;
+			}
+	}
+	& .requisitos {
+		& div p {
+			margin-top: .5em;
+			&:first-of-type {
+				margin-top:0;
+			}
+		}
+	}
 }
