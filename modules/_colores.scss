@@ -4,7 +4,7 @@ $grisFondo: #EBEBEB;
 $grisTexto: (lighten($negro, 25%));
 $grisBorde: rgb(204,204,204);
 $titulo1: #5D99DB;
-$error: rgb(231,76,60);
+//$error: rgb(231,76,60);
 
 $enlace: rgb(0,131,215);
 $enlaceHover: (lighten($enlace, 55%));
@@ -23,7 +23,8 @@ $txt: rgb(102,102,102);
 //Colores de sites
 
 //$colorCMIX: rgb(25,152,139);//Infinity
-$colorCMIX: rgb(8,209,251);
+//$colorCMIX: rgb(8,209,251);// Azul original
+$colorCMIX: rgb(0,199,244);
 //$colorCMIX: rgb(90,210,255);//Oasis Blue
 //$colorCMIX: rgb(49,213,222);//Lover Blue
 //$colorCMIX: rgb(26,230,248);//Neon Blue
