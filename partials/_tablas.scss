@@ -37,9 +37,6 @@ tr {
 td {
 	@extend th;
 	text-transform: none;
-	& > * {
-		margin: 0 1em 0 1.5em;
-	}
 	& dt {
 		@include rem('font-size',18px);
 		font-weight: $medium;
@@ -48,4 +45,11 @@ td {
 
 td[rowspan] {
 	vertical-align: middle;
+}
+
+.desSinTitulo td,
+.desConTitulo td {
+	& > * {
+			margin: 0 1em 0 1.5em;
+		}
 }
