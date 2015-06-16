@@ -487,104 +487,73 @@
 }
 
 //listado complejo sin etiquetas y con iconos
-.lstIconos {
-	@extend %listCompNoDT;
-	& dd[class^="fecha"] {
-		padding-left: 0;
-		text-transform: uppercase;
-		&:before  {
-				content: '\f073';
+@mixin iconoLista($x, $fontS: 20px, $marginR: .75em) {
+				content: $x;
 				cursor: pointer;
 				display: inline; 
 			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
+			  @include rem('font-size', $fontS); 
 			  line-height: 1;
-			  margin-right:.75em;
-		}
+			  margin-right:$marginR;
+}
+
+.lstIconos {
+	@extend %listCompNoDT;
+	
+	& dd[class^="fecha"] {
+			padding-left: 0;
+			text-transform: uppercase;
+			&:before {
+				@include iconoLista('\f073');
+			}
 	}
 	& dd[class^="fechaI"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f044';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f044');
 		}
 	}
 	& dd[class^="horario"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f017';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f017');
 		}
 	}
 	& dd[class^="direccion"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f041';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f041');
 		}
 	}
 	& dd[class^="precio"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f153';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f153');
 		}
 	}
 	& dd[class^="nota"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f05a';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f05a');
 		}
 	}
 	& dd[class^="tipoActividad"] {
 		padding-left: 0;
-		&:before  {
-				content: '\f02d';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
+		&:before {
+			@include iconoLista('\f02d');
+		}
+	}
+	& dd[class^="colectivo"] {
+		padding-left: 0;
+		&:before {
+			@include iconoLista('\f234');
 		}
 	}
 	& dd[class^="tipoPublico"] {
 		display: inline-block;
 		padding-left: 0;
 		&:before {
-				content: '\f0c0';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.65em;
+			@include iconoLista('\f0c0', $marginR: 0.65em);
 		}
 		&:not(last-of-type) {
 			&:after {
@@ -598,18 +567,7 @@
 			}
 		}
 	}
-	& dd[class^="colectivo"] {
-		padding-left: 0;
-		&:before  {
-				content: '\f234';
-				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
-			  line-height: 1;
-			  margin-right:.75em;
-		}
-	}
+	
 }
 
 //ListadoEntidad
