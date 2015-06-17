@@ -3599,6 +3599,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/modules\/_iconoLista.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/modules\/_iconoLista.scss",
+		"outputAbbreviatedPath": "\/estilos\/_iconoLista.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/modules\/_off-left.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,

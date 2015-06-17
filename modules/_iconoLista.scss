@@ -1,0 +1,11 @@
+//iconos para las listas que utilizan iconos en lugar
+
+@mixin iconoLista($x, $fontS: 20px, $marginR: .75em) {
+				content: $x;
+				cursor: pointer;
+				display: inline; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size', $fontS); 
+			  line-height: 1;
+			  margin-right:$marginR;
+}
