@@ -44,21 +44,27 @@ $(function(){
 	$('#buscadorFormularioFechas').find('p').on("click", function (){
 		$(this).next("fieldset").slideToggle(); 
 		$(this).toggleClass('abierto');
+	});
+	
+	$('.buscadorCategoriasComplejo ul.cat1nivel > li > input').on("click", function (){
+		$('li.catMarcada').removeClass('catMarcada');
+		$('label.abierto').removeClass('abierto').nextAll('ul').slideToggle();
 	});		
 	
-	$('.buscadorCategoriasComplejo ul.cat1nivel > li').has('ul').find('> label').addClass('padre');
+	$('.buscadorCategoriasComplejo ul.cat2nivel > li').has('ul').children('label').addClass('padrecito');
 	
-	$('.buscadorCategoriasComplejo ul.cat1nivel > li').has('ul').find(' label').on("click", function (){
+	$('.buscadorCategoriasComplejo ul.cat2nivel > li').find('.padrecito').on("click", function (){
 		$(this).toggleClass('abierto');
-		$(this).parent().children('ul').slideToggle();
+		$(this).parent('li').children('ul').slideToggle();
 		return false; 
 	});
 	
-	$('.buscadorCategoriasComplejo').find('input').on("click", function (){
-		//$('input.marcado').removeClass('marcado');
+	$('.buscadorCategoriasComplejo ul.cat2nivel > li > input').on("click", function (){
 		$('li.catMarcada').removeClass('catMarcada');
-		//$(this).toggleClass('marcado');
-		$(this).parents('li').addClass('catMarcada');	
+		$('label.abierto').removeClass('abierto').nextAll('ul').slideToggle();
+		$(this).parentsUntil('ul.cat1nivel > li', 'li').addClass('catMarcada');
+		$(this).next('label').toggleClass('abierto');
+		$(this).nextAll('ul').slideToggle();	
 	});
 	
 	//barraCompartir
