@@ -11,10 +11,10 @@
 		@include display-flex;
 		@include flex-direction(row);
 		@include flex-wrap(wrap);
-		justify-content: flex-end;
+		@include justify-content(flex-end);
 		margin-bottom: 0;
 		&.inscripcionAbierta {
-			justify-content: flex-start;
+			@include justify-content(flex-start);
 			margin: .25em 0 .5em;
 			& a {
 				background-color: $enlace;
@@ -94,7 +94,7 @@
 			}
 		}
 		& li {
-			justify-content: flex-start;
+			@include justify-content(flex-start);
 		}
 	}
 	& .requisitos li {
