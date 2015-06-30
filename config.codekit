@@ -2533,7 +2533,7 @@
 		},
 	"\/js\/outdatedbrowser.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/outdatedbrowser.js",
 		"outputAbbreviatedPath": "\/js\/min\/outdatedbrowser-min.js",
@@ -4752,12 +4752,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/masonry.js",
 			"position": 3,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/outdatedbrowser.js",
-			"position": 4,
 			"type": 1
 			}
 		],

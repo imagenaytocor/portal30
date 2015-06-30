@@ -211,5 +211,11 @@ var outdatedBrowser = function(options) {
       return false;
     };//end displayResponse
 
+outdatedBrowser({
+        color: '#FFF',
+        lowerThan: 'transform',
+        languagePath: ''
+    });
+
 ////////END of outdatedBrowser function
 };

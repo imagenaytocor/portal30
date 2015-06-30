@@ -104,12 +104,7 @@ $(function(){
 	$('.site_1270542954892').addClass('site_1352255804703');
 	$('.site_1266187561771').addClass('site_1352255804703');
 	
-	outdatedBrowser({
-	        color: '#FFF',
-	        lowerThan: 'transform',
-	        languagePath: ''
-	    });
-	
+		
 	
 	$('.mason > div').addClass('brick');
 	$('.mason > div:first-of-type').removeClass('brick');
