@@ -166,16 +166,16 @@
 		float: left;
 		margin: .5em 1.4%;
 		position: relative;
-		display: none;
+		//display: none;
 		&:first-of-type {
 			margin-left:0;
 		}
 		&:last-of-type {
 			margin-right:0;
 		}
-		&:nth-of-type(-n+3){
-			display: block;
-		}
+		//&:nth-of-type(-n+3){
+		//	display: block;
+		//}
 		&.m-50 {
 			display: block;
 			margin: .5em 0;

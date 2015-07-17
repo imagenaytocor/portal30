@@ -89,13 +89,13 @@ ul#accesos {
 	right: 2em;
 	top: 9em;
 	list-style: outside none none;
+	z-index: 20;
 	@include breakpoints(desktop){
 		top: 8.5em;
 	}
 	
 	& li {
 		float: left;
-		margin-right: .3em;
 	}
 	& span {
 		@include offleft;
@@ -103,17 +103,18 @@ ul#accesos {
 	& a {
 		color: $blanco;
 		@include rem('font-size', .1px);
-		visibility: hidden;
 	}
 	%socialCabecera {
 		&:before {
 				color: $blanco;
-				display: inline-block;
+				display: block;
 				font-family: FontAwesome; 
 				@include rem('font-size',24px);
 				font-style: normal; 
-				line-height: 1;
-				visibility: visible;
+				height: 1.2em;
+				line-height: 1.2;				
+				text-align: center;
+				width: 1.2em;
 		}
 		// Para IE	
 		.no-flexboxlegacy & {

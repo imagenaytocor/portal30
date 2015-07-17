@@ -1,17 +1,43 @@
 .site_1266409838114 {
+	& ul#accesos {
+			top: 6.85em;
+			right: .5em;
+			& li {
+				margin-right: .3em;
+				& a {
+					&::before {
+						border:1px solid $grisBorde;
+						@include border-radius(.3em);
+					}
+				}
+			}
+		& .facebook a::before {
+			color: $grisTexto;
+			display: block;
+			text-align: center;
+			height: 1.2em;
+			line-height: 1.2;
+			width: 1.2em;
+		}
+		& .twitter a::before {
+			color: $grisTexto;
+			display: block;
+			text-align: center;
+			height: 1.2em;
+			line-height: 1.2;
+			width: 1.2em;
+		}
+	}
+	@include breakpoints(tablet){
+		& ul#accesos {
+			right: 1.45em;
+			top: 3.9em;
+		}
+	}
 	@include breakpoints(desktop){
 		& ul#accesos {
 			top: 3.25em;
-			right: 2em;
-			z-index: 20; 
-			& li {
-				@include rem('font-size', 16px);
-				& a {
-					color: $enlace;
-					font-size: inherit;
-					visibility: visible;
-				}
-			}
+			right: 2.5em;
 		}
 	}
 	& #menuMapaWeb .menu_1283931718543 {
