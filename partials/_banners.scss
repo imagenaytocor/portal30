@@ -164,12 +164,10 @@
 		background-size: cover;
 		height: 12.5em;
 		float: left;
-		margin: .5em 1.4%;
+		margin: .5em 1.1%;
 		position: relative;
 		//display: none;
-		&:first-of-type {
-			margin-left:0;
-		}
+		
 		&:last-of-type {
 			margin-right:0;
 		}
@@ -189,13 +187,16 @@
 		@include breakpoints(tablet){
 			display: block;	
 			margin: .5em .4%;	
+			&:first-of-type {
+				margin-left:0;
+			}
 		}
 		& p {
 			background-color: rgba($negro, 0.75);
 			font-family: $titulos-font-family;
-			@include rem('font-size', 14px);
+			@include rem('font-size', 13px);
 			font-weight: $light;
-			height: 7em;
+			height: 8em;
 			line-height: 1.2;
 			padding: .5em 5%;
 			position: absolute;
@@ -204,8 +205,12 @@
 			top: 7.35em;
 			width: 100%;
 			@include breakpoints(tablet){
-				height: 6em;	
+				height: 7em;	
 				top: 8.35em;	
+			}
+			@include breakpoints(desktop){
+				@include rem('font-size', 14px);
+				height: 6em;	
 			}
 		}
 		& a {
