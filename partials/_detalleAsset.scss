@@ -15,6 +15,11 @@
 			padding-right: 1%;
 		}
 	}
+	& .article {
+		@include breakpoints(tablet){
+			@include flex-basis(92%);
+		}
+	}
 	& h2 {
 		text-transform: none;
 	}

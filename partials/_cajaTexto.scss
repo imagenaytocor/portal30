@@ -65,7 +65,7 @@
 
 
 //Bug de Firefox - elementos float dentro de flex no calcula bien el ancho
-.no-cssreflections .article,
+//.no-cssreflections .article,
 .no-cssreflections .article + #navegacionInterna {
 	@include breakpoints(desktop){
 		max-width: 37.82em;
