@@ -14,4 +14,4 @@ jQuery.noConflict(),function($){$(function(){$(".acordeon").find("h3").each(func
 * @license 
 * portal30mod.js
 */
-Modernizr.load([{load:"https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"},{test:Modernizr.mq("only all and (max-width:44.9em)"),yep:["//estaticos.coruna.es/js/menu-min.js"]},{test:Modernizr.mq("only all and (min-width:45em) and (max-width:59.9em)"),yep:["//estaticos.coruna.es/js/menuTablet-min.js"]},{test:Modernizr.mq("only all and (min-width:60em)"),yep:["//estaticos.coruna.es/js/menuGr-min.js"]}]);
+Modernizr.load([{load:"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"},{test:Modernizr.mq("only all and (max-width:44.9em)"),yep:["//estaticos.coruna.es/js/menu-min.js"]},{test:Modernizr.mq("only all and (min-width:45em) and (max-width:59.9em)"),yep:["//estaticos.coruna.es/js/menuTablet-min.js"]},{test:Modernizr.mq("only all and (min-width:60em)"),yep:["//estaticos.coruna.es/js/menuGr-min.js"]}]);

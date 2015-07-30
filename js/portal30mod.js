@@ -6,7 +6,7 @@
 
 Modernizr.load([
 {
-	load:'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
+	load:'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'
 },
 {
 	test: Modernizr.mq('only all and (max-width:44.9em)'),
