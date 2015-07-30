@@ -102,6 +102,7 @@ ul#accesos {
 	}
 	& a {
 		color: $blanco;
+		display: block;
 		@include rem('font-size', .1px);
 	}
 	%socialCabecera {
