@@ -99,6 +99,7 @@ $(function(){
 	//ServSoc -> COF, Drogas
 	$('.site_1408670153087').addClass('site_1280301855095');
 	$('.site_1237944294200').addClass('site_1280301855095');
+	$('.site_1240016856326').addClass('site_1280301855095');
 	//Empleo -> CME, OMIC, Rede
 	$('.site_1346721380160').addClass('site_1352255804703');
 	$('.site_1270542954892').addClass('site_1352255804703');
