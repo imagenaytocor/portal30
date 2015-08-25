@@ -101,19 +101,20 @@
 	padding: 1em 5% 0;
 	& ul {
 		list-style: none;
-	}
-	& li {
-		margin-left:2em;
-		&:before  {
-			color: $negro;
-			content: '\f101';
-			cursor: pointer;
-			display: inline-block; 
-		  font-family: FontAwesome; 
-		  @include rem('font-size',18px); 
-		  line-height: 1;
-		  margin-right: .5em;
+		& li {
+			margin-left:2em;
+			&:before  {
+				color: $negro;
+				content: '\f101';
+				cursor: pointer;
+				display: inline-block; 
+			  font-family: FontAwesome; 
+			  @include rem('font-size',18px); 
+			  line-height: 1;
+			  margin-right: .5em;
+			}
 		}
 	}
+	
 }
 
