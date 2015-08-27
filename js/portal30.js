@@ -75,14 +75,16 @@ $(function(){
 	});
 	
 	//relacionados conc
+	$('.concDesplegable').find('.desConTitulo').each(function () {
+		$(this).find('p.tituloAcordeon').removeClass('tituloAcordeon').addClass('bio').prependTo('.relacionados');
+	});
 	$('.concDesplegable').find('.desConTitulo').append('<span class="fa fa-arrow-circle-o-down"></span>');
 	$('.concDesplegable').find('span.fa').on("click", function (){
 		$(this).toggleClass('abierto');
 		$(this).prev('div').slideToggle();
 	});
 	
-	
-	//meter masInfo en buscadorResultado
+	//meter masInfo en buscadorResultado//
 	
 	$('p.masInfo').each(function () {
 		var listaHermana = $(this).prev();
@@ -96,16 +98,15 @@ $(function(){
 	//MA -> Red de energia, Infoambiental 
 	$('.site_1327566821900').addClass('site_1322782134412');
 	$('.site_1332838419278').addClass('site_1322782134412');
-	//ServSoc -> COF, Drogas
+	//ServSoc -> COF, Drogas, Participacion
 	$('.site_1408670153087').addClass('site_1280301855095');
 	$('.site_1237944294200').addClass('site_1280301855095');
 	$('.site_1240016856326').addClass('site_1280301855095');
+	$('.site_1280301855095').addClass('site_1280301855095');
 	//Empleo -> CME, OMIC, Rede
 	$('.site_1346721380160').addClass('site_1352255804703');
 	$('.site_1270542954892').addClass('site_1352255804703');
 	$('.site_1266187561771').addClass('site_1352255804703');
-	
-		
 	
 	$('.mason > div').addClass('brick');
 	$('.mason > div:first-of-type').removeClass('brick');
