@@ -39,7 +39,7 @@
 			margin: 0;		
 			width: 48%;
 		}
-		& > p {
+		& p {
 			@include rem('font-size', 16px);
 			float: right;
 			width: 48%;
@@ -52,6 +52,13 @@
 			}
 			& + p {
 				margin-top: -2em;
+			}
+			&.bio {
+				float: none;
+				margin-bottom: 0;
+				padding: 1em 0;
+				overflow: hidden;
+				width: 100%;
 			}
 		}
 		& span.fa {
