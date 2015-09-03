@@ -76,7 +76,7 @@ $(function(){
 	
 	//relacionados conc
 	$('.concDesplegable').find('.desConTitulo').each(function () {
-		$(this).find('p.tituloAcordeon').removeClass('tituloAcordeon').addClass('bio').prependTo('.relacionados');
+		$(this).find('p.tituloAcordeon').removeClass('tituloAcordeon').addClass('bio').prependTo($(this).find('.relacionados'));
 	});
 	$('.concDesplegable').find('.desConTitulo').append('<span class="fa fa-arrow-circle-o-down"></span>');
 	$('.concDesplegable').find('span.fa').on("click", function (){
