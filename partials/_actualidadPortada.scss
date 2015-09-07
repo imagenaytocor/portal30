@@ -165,7 +165,7 @@
 		& dt {
 			@include rem('font-size',16px);
 		}
-		&:first-of-type {
+		/*&:first-of-type {
 			font-family: 'Roboto Condensed', sans-serif;
 			font-weight: $light;
 			min-height: 16em;
@@ -194,7 +194,7 @@
 				width: 100%;
 			}
 		}
-		
+		*/
 	}
 	& a {
 		color: $negro;

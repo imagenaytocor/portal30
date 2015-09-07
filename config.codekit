@@ -3476,9 +3476,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/index.kit",
-		"outputAbbreviatedPath": "\/kit\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/kit\/indexBibliotecas.kit": {
 		"fileType": 2048,
@@ -3494,18 +3494,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexCmix.kit",
-		"outputAbbreviatedPath": "\/kit\/indexCmix.html",
+		"outputAbbreviatedPath": "\/indexCmix.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/indexCultura.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/indexCultura.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/kit\/indexCultura.kit": {
 		"fileType": 2048,
@@ -3521,18 +3512,18 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexMedioambiente.kit",
-		"outputAbbreviatedPath": "\/kit\/indexMedioambiente.html",
+		"outputAbbreviatedPath": "\/indexMedioambiente.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/kit\/indexServiciossociales.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/indexServiciossociales.kit",
-		"outputAbbreviatedPath": "\/kit\/indexServiciossociales.html",
+		"outputAbbreviatedPath": "\/indexServiciossociales.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/kit\/tilesApp.kit": {
 		"fileType": 2048,
