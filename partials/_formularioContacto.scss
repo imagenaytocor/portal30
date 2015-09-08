@@ -55,6 +55,32 @@
 		padding: .15em .5em;
 		width: 80%;
 	}
+	& .campoCorto {
+		& label select {
+			@include breakpoints(tablet){
+				display: inline-block;
+				margin-left: .5em;
+				width: 15%;
+			}
+		}
+		& .DescripcionLarga {
+			overflow: hidden;
+			width: 80%;
+			& p {
+				@include rem('font-size',16px);
+			}
+		}
+	}
+}
+
+.campoCorto {
+	& label select {
+		@include breakpoints(tablet){
+			display: inline-block;
+			margin-left: .5em;
+			width: 15%;
+		}
+	}
 }
 
 #formContacto {
