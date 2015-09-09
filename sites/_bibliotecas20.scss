@@ -111,7 +111,9 @@
 	& .detallePrograma li > a {
 		@include offleft;
 	} 
-	& #detalleEntidad .relacionados {
+	& #detalleEntidad .relacionados,
+	& #detallePrograma .programaIndicadores, 
+	& #detallePrograma .programaMasInformacion {
 		display: none;
 	}
 	& #detalleEntidad .horario {
