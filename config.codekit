@@ -4366,22 +4366,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/principal.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 1,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/principal.scss",
-		"outputAbbreviatedPath": "\/estilos\/principal.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
