@@ -321,7 +321,7 @@
 	& .linea1banner {
 		background-color: $error;
 		color: $blanco;
-		@include flex-basis(14%);
+		@include flex-basis(26%);
 		padding: .5em;
 		text-transform: uppercase;
 		@include breakpoints (medDesktop) {
