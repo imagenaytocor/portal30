@@ -51,6 +51,7 @@ $colorVivienda: rgb(156,27,1);
 //$colorEMM: rgb(203,131,66);
 $colorUrbanismo: rgb(156,27,1);
 $colorParticipacion: rgb(0,198,243);
+$colorIgualdad: rgb(145,99,201);
 
 //Colores de sites para fondo h1 - los sites sin imagen de fondo van con el color de la cabecera sólido $colorCultura_h1: darken(rgba($colorCultura,.85),5%); $colorMedioambiente_h1: darken(rgba($colorMedioambiente,.7),5%);
 
@@ -73,7 +74,8 @@ $colorVivienda_h1: rgb(156,27,1);
 //$colorDrogas_h1: rgb(154,0,80);
 //$colorEMM_h1: rgb(203,131,66);
 $colorUrbanismo_h1: rgb(156,27,1);
-$colorParticipacion_h1: rgb(0,198,243); 
+$colorParticipacion_h1: rgb(0,198,243);
+$colorIgualdad_h1: rgb(145,99,201); 
 
 $colorSinseccion: rgb(0, 159, 238);
 
@@ -98,14 +100,15 @@ $colorSinseccion: rgb(0, 159, 238);
 // site_urbanismo = site_1416276701242
 // site_redEnergia = site_1327566821900**
 // site_participacion = site_1240016856326
+// site_igualdad = site_1443062183533
 
 
 //Mezclamos las secciones con su color
-$sites: site_1414721835012 site_1322782055091 site_1322782134412 site_1352255804703 site_1280301855095 site_1382936859765 site_1369098952393 site_1327566431975 site_1327572561803 site_1347499014423 site_1416276701242 site_1240016856326;
+$sites: site_1414721835012 site_1322782055091 site_1322782134412 site_1352255804703 site_1280301855095 site_1382936859765 site_1369098952393 site_1327566431975 site_1327572561803 site_1347499014423 site_1416276701242 site_1240016856326 site_1443062183533;
 
-$colorSites: $colorCMIX $colorCultura $colorMedioambiente $colorEmpleo $colorServiciossociales $colorBibliotecas $colorPMUS $colorCarreras $colorAdopcion $colorVivienda $colorUrbanismo $colorParticipacion;
+$colorSites: $colorCMIX $colorCultura $colorMedioambiente $colorEmpleo $colorServiciossociales $colorBibliotecas $colorPMUS $colorCarreras $colorAdopcion $colorVivienda $colorUrbanismo $colorParticipacion $colorIgualdad;
 
-$colorSites_h1: $colorCMIX_h1 $colorCultura_h1 $colorMedioambiente_h1 $colorEmpleo_h1 $colorServiciossociales_h1 $colorBibliotecas_h1 $colorPMUS_h1 $colorCarreras_h1 $colorAdopcion_h1 $colorVivienda_h1 $colorUrbanismo_h1 $colorParticipacion_h1;
+$colorSites_h1: $colorCMIX_h1 $colorCultura_h1 $colorMedioambiente_h1 $colorEmpleo_h1 $colorServiciossociales_h1 $colorBibliotecas_h1 $colorPMUS_h1 $colorCarreras_h1 $colorAdopcion_h1 $colorVivienda_h1 $colorUrbanismo_h1 $colorParticipacion_h1 $colorIgualdad_h1;
 
 $site-color: zip($sites, $colorSites);
 
