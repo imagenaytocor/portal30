@@ -48,6 +48,19 @@
 	}
 }
 
+.colCaja.acordeon {
+	& h3 {
+		border-bottom: none;
+		border-left: none;
+	}
+	& .contenidoAcordeon {
+		padding: 1em 0 0;
+		& li {
+			margin-left: 0;
+		}
+	}
+}
+
 .tituloAcordeon {
 	background-color: $grisFondo;
 	border: 1px solid $grisBorde;
@@ -115,6 +128,5 @@
 			}
 		}
 	}
-	
 }
 
