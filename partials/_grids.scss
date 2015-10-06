@@ -199,6 +199,9 @@ body:after {
 		@include justify-content(space-between);
 		@include align-content(flex-start);
 		margin: .5em 0 1.5em;
+		&.t-20 {
+			@include flex-basis(18%);
+		}
 		&.t-25 {
 				@include flex-basis(23%);
 		}
@@ -216,6 +219,9 @@ body:after {
 		}
 	}
 	@include breakpoints(desktop){
+		&.d-20 {
+				@include flex-basis(19%);
+			}
 		&.d-25 {
 				@include flex-basis(24%);
 			}
@@ -281,6 +287,12 @@ body:after {
 	}
 }
 
+.t-20 {
+	@include breakpoints(tablet){
+		width: 19%;
+	}
+}
+
 .t-16 {
 	@include breakpoints(tablet){
 		width: 16%;
@@ -320,6 +332,12 @@ body:after {
 .d-25 {
 	@include breakpoints(desktop){
 		width: 24%;
+	}
+}
+
+.d-20 {
+	@include breakpoints(desktop){
+		width: 19%;
 	}
 }
 .d-16 {
