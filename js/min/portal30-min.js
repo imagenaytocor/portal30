@@ -2,7 +2,7 @@
 * @license 
 * tabsTexto.js
 */
-jQuery.noConflict(),function($){$(function(){$(".panes").before('<ul id="etiquetas" class="tabs"></ul>'),$("#etiquetas").before($(".panes h2")),$("#etiquetas").before($(".panes > h3")),$(".panes .cajaGenerica a[name]").each(function(){var e=$(this).attr("name");$(this).parent().attr("id","tab"+e)}),$(".panes .textoContenido h3").each(function(){var e=$(this).parents(".cajaGenerica").attr("id"),i=$(this).html();$(".tabs").append('<li><a href="#'+e+'">'+i+"</a></li>")}),$(".panes .textoContenidoTab h3").each(function(){var e=$(this).parents(".cajaGenerica").attr("id"),i=$(this).html();$(".tabs").append('<li><a href="#'+e+'">'+i+"</a></li>")}),$("ul.tabs").tabs("div.panes > div")})}(jQuery),/**
+jQuery.noConflict(),function($){$(function(){$(".panes").each(function(){var e=$(this);$(this).before('<ul class="etiquetas tabs"></ul>'),$(".etiquetas").before($(".panes h2")),$(".etiquetas").before($(".panes > h3")),$(this).find(".cajaGenerica a[name]").each(function(){var e=$(this).attr("name");$(this).parent().attr("id","tab"+e)}),$(this).find(".textoContenido h3").each(function(){var i=$(this).parents(".cajaGenerica").attr("id"),t=$(this).html();e.prev(".tabs").append('<li><a href="#'+i+'">'+t+"</a></li>")}),$(this).find(".textoContenidoTab h3").each(function(){var i=$(this).parents(".cajaGenerica").attr("id"),t=$(this).html();e.prev(".tabs").append('<li><a href="#'+i+'">'+t+"</a></li>")}),$("ul.tabs").tabs("div.panes > div")})})}(jQuery),/**
 * @license 
 * portal30.js - dgenerico
 */
