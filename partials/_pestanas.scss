@@ -1,22 +1,28 @@
 /*_pestanas.scss*/
 
-#etiquetas {
+.etiquetas {
 	@include no-bullets;
-	clear: both;
-	padding: .45em 0 .52em; 
+	@include display-flex;
+	@include flex-wrap(wrap);
+	margin-left: 0;
+	padding: .45em 0 .52em;
+	@include breakpoints(tablet){
+		clear: both;
+		display: inherit;
+		margin-left: 3.125%;
+	} 
 	& li {
+		display: inline;
+		margin-right: .5em;
 		padding: .5em 0;
 		text-transform: uppercase;
 		@include breakpoints(tablet){
 			border-right: 1px solid $blanco;
-			display: inline;
-			margin-right: .5em;
 		}
 	}
 	& a {
 		background-color: $grisFondo;
-		border-bottom: 1px solid $blanco;
-		@include border-radius (.15em .15em 0 0);
+		@include border-radius (.15em);
 		color: $enlace;
 		@each $a in $site-color {
 			.#{nth($a, 1)} & {
@@ -28,9 +34,14 @@
 		&.current {
 				background-color: $blanco;
 				border: 1px solid $grisBorde;
+				color: $negro;		
+		}
+		@include breakpoints(tablet){
+			border-bottom: 1px solid $blanco;
+			@include border-radius (.15em .15em 0 0);
+			&.current {
 				border-bottom-color: $blanco;
-				color: $negro;
-				
+			}
 		}
 	}
 }

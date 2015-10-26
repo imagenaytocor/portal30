@@ -46,6 +46,39 @@
 		border-top: none;
 		padding-top: 0;
 	}
+	&.t-50 {
+		margin-bottom: 1.5em;
+	}
+	&.d-25 {
+		margin-bottom: 0;
+	}
+	& .panes {
+		background-color: $blanco;
+	}
+	& .etiquetas a {
+		background-color: $enlace;
+		@each $a in $site-color {
+			.#{nth($a, 1)} & {
+				background-color: nth($a, 2);
+			}
+		}
+		color: $blanco;
+		&.current {
+			background-color: $blanco;
+			color: $negro;
+		}
+	}
+	
+// colCaja cajaImgTxt	
+
+	&.colCaja {
+		background-repeat: repeat-x !important;
+		padding: 1em .5em .5em;
+		& h3 {
+			font-family: $titulos2-font-family;
+		}
+	}
+
 }
 
 .cajaDesplegable {
