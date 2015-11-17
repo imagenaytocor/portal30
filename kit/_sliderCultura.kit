@@ -1,25 +1,76 @@
 <div class="cajaSlider sliderDestacado m-100 "><script type="text/javascript">
 jQuery(document).ready(function(){
+
+/******************************************
+ Swipe Demo - without using jQuery Mobile
+
+   ** Swipe across the navigation tabs **
+
+******************************************/
+var setupSwipe = function(slider) {
+    var time = 1000,
+        // allow movement if < 1000 ms (1 sec)
+        range = 50,
+        // swipe movement of 50 pixels triggers the slider
+        x = 0,
+        t = 0,
+        touch = "ontouchend" in document,
+        st = (touch) ? 'touchstart' : 'mousedown',
+        mv = (touch) ? 'touchmove' : 'mousemove',
+        en = (touch) ? 'touchend' : 'mouseup';
+
+    slider.$window.add(slider.$controls)
+        .bind(st, function(e) {
+            // prevent image drag (Firefox)
+            e.preventDefault();
+            t = (new Date()).getTime();
+            x = e.originalEvent.touches ? e.originalEvent.touches[0].pageX : e.pageX;
+        })
+        .bind(en, function(e) {
+            t = 0;
+            x = 0;
+        })
+        .bind(mv, function(e) {
+            e.preventDefault();
+            var newx = e.originalEvent.touches ? e.originalEvent.touches[0].pageX : e.pageX,
+                r = (x === 0) ? 0 : Math.abs(newx - x),
+                // allow if movement < 1 sec
+                ct = (new Date()).getTime();
+            if (t !== 0 && ct - t < time && r > range) {
+                if (newx < x) {
+                    if ($(this).hasClass('anythingControls')) {
+                        slider.$controls.find('.next').trigger('click');
+                    } else {
+                        slider.goForward();
+                    }
+                    return false;
+                }
+                if (newx > x) {
+                    if ($(this).hasClass('anythingControls')) {
+                        slider.$controls.find('.prev').trigger('click');
+                    } else {
+                        slider.goBack();
+                    }
+                }
+                t = 0;
+                x = 0;
+                return false;
+            }
+        });
+};
+
+
+
 	jQuery('#S1322783534817')
-	//.anythingSlider({autoPlay : true, autoPlayLocked : false, buildArrows : false, delay : 5000, enableStartStop : true, expand : true, resumeDelay : 5000, toggleControls : false, hashTags : false}) 
+	
 		
-		.anythingSlider({autoPlay : true,buildArrows : true,buildNavigation : true,buildStartStop : false,infiniteSlides : false,navigationFormatter : function(i, panel){return panel.find('p.tituloImagen').text();},startStopped : false,stopAtEnd : false, hashTags : false})
+		.anythingSlider({
+		
+						onInitialized: function(e, slider) {
+		        setupSwipe(slider);
+		    }})
 			
-		.find('.panel:not(.cloned) img') 
-		.attr('rel','group')           // add all slider images to a colorbox group
 		
-			.colorbox({
-				width: '75%',
-				height: '75%',
-				href: function(){ return $(this).attr('src'); },
-				// use $(this).attr('title') for specific image captions
-				//title: 'Pulsa la tecla ESC para volver a la página',
-				previous: "&lt;&lt;",
-				next: "&gt;&gt;", 
-				close: "X" , 
-				current: "{current}/{total}",
-				rel: 'group'
-			});
 		
 });(jQuery)
 </script>
