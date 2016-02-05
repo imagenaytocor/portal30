@@ -1,5 +1,5 @@
 /**
-* @license 
+* @license
 * acordeones.js
 */
 jQuery.noConflict();
@@ -21,7 +21,7 @@ $(function(){
 				$(this).next('div').slideToggle();
 				$(this).toggleClass('abierto');
 			});
-		
+
 		$('.detalleAsset').find('p.tituloAcordeon').each(function () {
 					$(this).nextUntil('p.tituloInterno').wrapAll('<div class="contenidoAcordeon"></div>');
 					$('<em></em>').appendTo(this);
@@ -30,9 +30,9 @@ $(function(){
 					$(this).next('div').slideToggle();
 					$(this).toggleClass('abierto');
 					//e(this).e("contenidoAcordeon").sliddeToggle();
-		
+
 				});
-				
+
 		$('.textoContenido').find('p.tituloAcordeon').each(function () {
 					$(this).nextUntil('p.tituloInterno').wrapAll('<div class="contenidoAcordeon"></div>');
 					$('<em></em>').appendTo(this);
@@ -41,9 +41,9 @@ $(function(){
 					$(this).next('div').slideToggle();
 					$(this).toggleClass('abierto');
 					//e(this).e("contenidoAcordeon").sliddeToggle();
-		
+
 				});
-				
+
 		$('.contenidoApartado').find('p.tituloAcordeon').each(function () {
 					$(this).nextUntil('p.tituloInterno').wrapAll('<div class="contenidoAcordeon"></div>');
 					$('<em></em>').appendTo(this);
@@ -52,8 +52,19 @@ $(function(){
 					$(this).next('div').slideToggle();
 					$(this).toggleClass('abierto');
 					//e(this).e("contenidoAcordeon").sliddeToggle();
-		
+
 				});
-		
+
+		$('.acordeon .desSinTitulo').find('p.tituloAcordeon').each(function () {
+					$(this).nextUntil('p.tituloInterno').wrapAll('<div class="contenidoAcordeon"></div>');
+					$('<em></em>').appendTo(this);
+				});
+				$('.acordeon .desSinTitulo').find('p.tituloAcordeon').on('click', function () {
+					$(this).next('div').slideToggle();
+					$(this).toggleClass('abierto');
+							//e(this).e("contenidoAcordeon").sliddeToggle();
+
+						});
+
 });
 })(jQuery);
