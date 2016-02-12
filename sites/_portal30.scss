@@ -7,7 +7,7 @@
 				& a {
 					&::before {
 						border:1px solid $grisBorde;
-						border-radius: .3em;
+						border-radius: $default-border-radius;
 					}
 				}
 				&:last-of-type {

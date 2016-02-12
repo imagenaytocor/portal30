@@ -23,7 +23,7 @@
 						background-color: nth($a, 2);
 					}
 				}
-				border-radius: .3em;
+				border-radius: $default-border-radius;
 				color: $blanco;
 				@include rem('font-size', 20px);
 				margin-left: 35%;
