@@ -34,7 +34,7 @@ input.gsc-search-button {
 	background-position: .6em .45em;
 	background-repeat: no-repeat;
 	border: none;
-	@include border-radius(.3em);
+	border-radius: .3em;
 	color: $blanco;
 	float: left;
 	line-height: 1.6;

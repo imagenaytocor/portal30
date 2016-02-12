@@ -17,7 +17,7 @@
 		}
 		& input {
 			border: 1px solid $grisTexto;
-			@include border-radius(.3em);
+			border-radius: .3em;
 			display: block;
 			margin: .25em 0;
 			padding: .15em .5em;
@@ -112,7 +112,7 @@
 		}
 	}
 	border: none !important;
-	@include border-radius(.3em);
+	border-radius: .3em;
 	color: #FFF;
 	float: right;
 	line-height: 2;
@@ -152,7 +152,7 @@ textarea.Error {
 .ayudaForm {
 	background-color: $error;
 	border: 1px solid $error;
-	@include border-radius(.3em);
+	border-radius: .3em;
 	color: $blanco;
 	float: left;
 	@include rem('font-size',16px);
@@ -165,7 +165,7 @@ textarea.Error {
 		width: 25%;
 		#contenidoAux & {
 			width: 100%;
-		}  
+		}
 	}
 	&:before {
 		background: none repeat scroll 0 0 $error;
@@ -175,7 +175,7 @@ textarea.Error {
 		left: 12px;
 		margin: 0 auto;
 		position: absolute;
-		@include transform(rotate(-45deg));
+		transform: rotate(-45deg);
 		width: 10px;
 		z-index: 10;
 		@include breakpoints(bigPhone){
@@ -187,7 +187,7 @@ textarea.Error {
 				left: -80%;
 			}
 		}
-	}	
+	}
 }
 
 .cajaAyudaBorde {
@@ -210,12 +210,12 @@ textarea.Error {
 	border: 1px solid $error;
 	margin-bottom: 1em;
 	padding: .5em 1em;
-	@include border-radius(.3em);
+	border-radius: .3em;
 	& p {
 		&.resultadoError {
 			@include title3-style;
 			color: $blanco;
-		} 
+		}
 		color: $blanco;
 		margin-bottom: 0;
 	}
@@ -228,5 +228,5 @@ textarea.Error {
 	& .direccionLocalidad label:last-of-type,
 	& .direccionProvincia {
 		display: none;
-	} 
+	}
 }

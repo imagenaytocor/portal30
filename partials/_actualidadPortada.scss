@@ -22,9 +22,8 @@
 	}
 	& ul {
 		@include breakpoints(bigPhone){
-			@include flex-direction(row);
-			@include justify-content(space-between);
-			@include flex-wrap(wrap);
+			flex-flow: row wrap;
+			justify-content: space-between;
 		}
 	}
 	& li {
@@ -75,7 +74,7 @@
 			&:nth-of-type(2n) {
 				margin-right: 4%;
 			}
-		}	
+		}
 		& dl {
 			width: 100%;
 		}
@@ -109,13 +108,13 @@
 	& ul {
 		padding: 0 6.25%;
 		@include breakpoints(tablet){
-			border-left: 1px dotted $grisBorde; 
+			border-left: 1px dotted $grisBorde;
 		}
 		@include breakpoints(desktop){
 			border-right: 1px dotted $grisBorde;
-			border-left: 1px dotted $grisBorde; 
+			border-left: 1px dotted $grisBorde;
 		}
-	} 
+	}
 	& li {
 		border-bottom: 1px dotted #CCC;
 		@include rem('font-size',14px);
@@ -148,7 +147,7 @@
 		}
 	}
 	& ul {
-		
+
 	}
 	& li {
 		border: 1px solid $grisBorde;

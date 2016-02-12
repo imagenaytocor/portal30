@@ -1,10 +1,9 @@
 //_banners.scss
 
 .destacadosPortada {
-	@include display-flex;
-	@include flex-direction(row);
-	@include justify-content(space-between);
-	@include flex-wrap(wrap);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	& .cajaBanner {
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -13,18 +12,18 @@
 		position: relative;
 		width: 48%;
 		@include breakpoints(bigPhone){
-			@include flex-basis(48%);
+			flex-basis: 48%;
 			height: 7.35em;
 		}
 		@include breakpoints(tablet){
-			height: 12.5em;		
+			height: 12.5em;
 		}
 		& p {
 			bottom: 4px;
 			position: absolute;
 		}
 		&.m-100 {
-			@include flex-basis(100%);
+			flex-basis: 100%;
 			@include breakpoints(bigPhone){
 				height: 15.1em;
 			}
@@ -34,13 +33,13 @@
 		}
 		&.t-33 {
 			@include breakpoints(tablet){
-				@include flex-basis(31%);
+				flex-basis: 31%;
 				height: 12.5em;
 			}
 		}
 		&.t-50 {
 			@include breakpoints(tablet){
-				@include flex-basis(49%);
+				flex-basis: 49%;
 				height: 12.5em;
 			}
 		}
@@ -49,7 +48,7 @@
 		height: 10.45em;
 		margin-bottom: 1em;
 		position: relative;
-		@include flex-basis(48%);
+		flex-basis: 48%;
 		& .imagenPromocion {
 			height: 100%;
 			overflow: hidden;
@@ -63,12 +62,12 @@
 			display: block;
 			float: left;
 			height: 10.45em;
-			@include flex-basis(48%);
-		
+			flex-basis: 48%;
+
 		}
 		@include breakpoints(tablet){
 			height: 12.5em;
-			
+
 		}
 	}
 	& p {
@@ -76,7 +75,7 @@
 		font-weight: $titulos-font-weight;
 		margin-bottom: 0;
 		width: 100%;
-	} 
+	}
 	& span {
 		display: block;
 		&.linea1banner {
@@ -99,7 +98,7 @@
 				}
 			}
 			background-color: rgba(0,0,0,.75);
-			color: #FFF; 
+			color: #FFF;
 			@include rem('font-size', 17px);
 			padding: .15em .55em;
 		}
@@ -117,7 +116,7 @@
 			height: 15em;
 		}
 		@include breakpoints(tablet){
-			height: 17.5em;		
+			height: 17.5em;
 		}
 	}
 	& p {
@@ -167,7 +166,7 @@
 		margin: .5em 1.1%;
 		position: relative;
 		//display: none;
-		
+
 		&:last-of-type {
 			margin-right:0;
 		}
@@ -180,13 +179,13 @@
 			&:nth-of-type(2n) {
 				margin-left:2%;
 				@include breakpoints(tablet){
-					margin: .5em .4%;	
+					margin: .5em .4%;
 				}
 			}
-		} 
+		}
 		@include breakpoints(tablet){
-			display: block;	
-			margin: .5em .4%;	
+			display: block;
+			margin: .5em .4%;
 			&:first-of-type {
 				margin-left:0;
 			}
@@ -205,12 +204,12 @@
 			top: 7.35em;
 			width: 100%;
 			@include breakpoints(tablet){
-				height: 7em;	
-				top: 8.35em;	
+				height: 7em;
+				top: 8.35em;
 			}
 			@include breakpoints(desktop){
 				@include rem('font-size', 14px);
-				height: 6em;	
+				height: 6em;
 			}
 		}
 		& a {
@@ -274,9 +273,9 @@
 			color: $blanco;
 			content: '\f1d8';
 			cursor: pointer;
-			display: inline-block; 
-		  font-family: FontAwesome; 
-		  @include rem('font-size',18px); 
+			display: inline-block;
+		  font-family: FontAwesome;
+		  @include rem('font-size',18px);
 		  line-height: 1;
 		  margin-right: .5em;
 		}
@@ -291,7 +290,7 @@
 	& p {
 		&:before  {
 			content: '\f1d9';
-			@include transform(rotate(180deg));
+			transform: rotate(180deg);
 		}
 	}
 }
@@ -309,8 +308,8 @@
 		}
 	}
 	& p {
-		@include display-flex;
-		@include justify-content(space-between);
+		display: flex;
+		justify-content: space-between;
 		font-family: $titulos2-font-family;
 		@include rem ('font-size', 14px);
 		margin-bottom: 0;
@@ -321,27 +320,27 @@
 	& .linea1banner {
 		background-color: $error;
 		color: $blanco;
-		@include flex-basis(26%);
+		flex-basis: 26%;
 		padding: .5em;
 		text-transform: uppercase;
 		@include breakpoints (medDesktop) {
-			@include flex-basis(12%);
+			flex-basis: 12%;
 		}
 	}
 	& .linea2banner {
 		background-color: $grisFondo;
-		@include flex-basis(74%);
+		flex-basis: 74%;
 		margin-right: 1%;
 		padding: .5em;
 		@include breakpoints (bigPhone) {
-			@include flex-basis(83%);
+			flex-basis: 83%;
 		}
 		@include breakpoints (tablet) {
-			@include flex-basis(85%);
+			flex-basis: 85%;
 			margin-right: 0;
 		}
 		@include breakpoints (medDesktop) {
-			@include flex-basis(87%);
+			flex-basis: 87%;
 		}
 	}
 }
@@ -369,7 +368,7 @@
 		&.linea1cajaPromocion {
 			@include title3-style;
 			font-weight: $light;
-			margin: .25em 0;	
+			margin: .25em 0;
 			text-transform: uppercase;
 			//se cambia el color de blanco a transparent por las cajas masonry
 			background-color: $blanco;
@@ -412,9 +411,9 @@
 			color: $negro;
 			content: '\f101';
 			cursor: pointer;
-			display: inline-block; 
-		  font-family: FontAwesome; 
-		  @include rem('font-size',18px); 
+			display: inline-block;
+		  font-family: FontAwesome;
+		  @include rem('font-size',18px);
 		  line-height: 1;
 		  margin-right: .5em;
 		}
@@ -435,7 +434,7 @@
 		margin: 0;
 		@include breakpoints (bigPhone) {
 			@include rem('font-size',25px);
-		}	
+		}
 	}
 	&.fondoColor {
 		background-color: $enlace;
@@ -479,7 +478,7 @@
 	}
 	& a {
 		display: block;
-		
+
 	}
 }
 
@@ -487,9 +486,9 @@
 	color: $blanco;
 	content: '\f002';
 	cursor: pointer;
-	display: inline; 
-	font-family: FontAwesome; 
-	@include rem('font-size',18px); 
+	display: inline;
+	font-family: FontAwesome;
+	@include rem('font-size',18px);
 	line-height: 1;
 	margin-right:.5em;
 }
@@ -505,9 +504,9 @@
 			}
 		}
 	margin-bottom: .5em !important;
-	& p {	
+	& p {
 		float: right;
-		margin-bottom: 0; 
+		margin-bottom: 0;
 		padding: .15em .25em .15em .1em;
 		width: 80%;
 	}
@@ -552,7 +551,7 @@ span.fa {
 		@include breakpoints (desktop) {
 			@include rem('font-size',25px);
 		}
-	} 
+	}
 }
 
 .bannerFAcirc {
@@ -564,8 +563,8 @@ span.fa {
 			.#{nth($a, 1)} & {
 				background-color: nth($a, 2);
 			}
-		} 
-		@include border-radius(50%);
+		}
+		border-radius: 50%;
 		color: $blanco;
 		@include rem('font-size',30px);
 		height: auto;
@@ -635,19 +634,22 @@ span.fa {
 		padding: 0 5%;
 		text-align: center;
 		&:hover {
-			background-color: rgba(lighten($enlace, 35%),.25);
+			background-color: rgba(tint($enlace, 35%),.25);
 			@each $a in $site-color {
 				.#{nth($a, 1)} & {
-					background-color: rgba(lighten(nth($a, 2), 35%),.25);
+					background-color: rgba(tint(nth($a, 2), 35%),.25);
 				}
 			}
+		}
+		&:visited {
+			color: $blanco;
 		}
 	}
 	& span {
 		display: block;
 		position: relative;
 		top: 49%;
-		@include transform(translateY(-49%));
+		transform: translateY(-49%);
 	}
 	& span.linea1banner {
 		display: block;
@@ -656,7 +658,7 @@ span.fa {
 	}
 	& span.linea2banner em {
 		border: 1px solid $blanco;
-		@include border-radius(0.3em);
+		border-radius: .3em;
 		padding: .25em .75em;
 	}
 	@include breakpoints(bigPhone){
@@ -677,5 +679,5 @@ span.fa {
 	@include breakpoints(bigDesktop){
 		height: 27.8437em;
 	}
-	
+
 }

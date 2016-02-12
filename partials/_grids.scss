@@ -49,16 +49,16 @@ body:after {
     position: relative;
     -webkit-transform: translate3d(0);
     transform: translate3d(0);
-    @include transition-property(all);
-    @include transition-duration(.3s);
-    @include transition-timing-function(ease);
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 #centro {
-	@include display-flex;
-	@include flex-direction(row);
-	@include justify-content(space-between);
-	@include flex-wrap(wrap);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	padding-top: 1em;
 	position: relative;
 	@each $a in $sites {
@@ -72,13 +72,13 @@ body:after {
 			padding-top: 0;
 		}
 	}
-} 
+}
 
 #contenidoCentralSuperior {
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(tablet){
-		@include display-flex;
+		display: flex;
 	}
 	.paginaPortada.site_1266409838114 & {
 		background: rgb(255,255,255) url(//estaticos.coruna.es/imagesdu/fondoFoto_2.jpg) no-repeat scroll;
@@ -94,9 +94,9 @@ body:after {
 	padding: 0 3.125% 1.5em;
 	width: 100%;
 	@include breakpoints(tablet){
-		@include display-flex;
-		@include flex-direction(column);
-		@include flex-wrap(no-wrap);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: no-wrap;
 	}
 	@include breakpoints(desktop){
 		& > div:first-of-type {
@@ -112,11 +112,11 @@ body:after {
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(desktop){
-		@include flex-basis(66%); 
+		flex-basis: 66%;
 		padding: 1.5em 1% 1.5em 3.125%;
 		width: auto;
 		.no-flexboxlegacy & {
-			flex-basis:58%;
+			flex-basis: 58%;
 		}
 	}
 }
@@ -125,7 +125,7 @@ body:after {
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(desktop){
-		@include flex-basis(33%); 
+		flex-basis: 33%;
 		padding: 1.5em 3.125% 1.5em 1%;
 		width: auto;
 	}
@@ -144,14 +144,14 @@ body:after {
 	padding: 0 3.125% 1.5em;
 	width: 100%;
 	@include breakpoints(tablet){
-		@include display-flex;
-		@include flex-direction(column);
-		@include flex-wrap(no-wrap);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: no-wrap;
 	}
 }
 
 .imagen {
-	& img { 
+	& img {
 		max-width: 100%;
 		width: 100%;
 	}
@@ -193,54 +193,54 @@ body:after {
 	}
 	@include breakpoints(tablet){
 		float: none;
-		@include display-flex;
-		@include flex-direction(row);
-		@include flex-wrap(wrap);
-		@include justify-content(space-between);
-		@include align-content(flex-start);
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: flex-start;
 		margin: .5em 0 1.5em;
 		&.t-20 {
-			@include flex-basis(18%);
+			flex-basis: 18%;
 		}
 		&.t-25 {
-				@include flex-basis(23%);
+				flex-basis: 23%;
 		}
 		&.t-33 {
-				@include flex-basis(32%);
+				flex-basis: 32%;
 		}
 		&.t-50 {
-				@include flex-basis(48%);
+				flex-basis: 48%;
 		}
 		&.t-66 {
-				@include flex-basis(65%);
+				flex-basis: 65%;
 		}
 		&.t-100 {
-				@include flex-basis(100%);
+				flex-basis: 100%;
 		}
 	}
 	@include breakpoints(desktop){
 		&.d-20 {
-				@include flex-basis(19%);
+				flex-basis: 19%;
 			}
 		&.d-25 {
-				@include flex-basis(24%);
+				flex-basis: 24%;
 			}
 		&.d-33 {
-				@include flex-basis(32%);
+				flex-basis: 32%;
 				//flex-flow: column nowrap;
 				//justify-content: flex-start;
 			}
 		&.d-50 {
-				@include flex-basis(48%);
+				flex-basis: 48%;
 			}
 		&.d-66 {
-				@include flex-basis(65%);
+				flex-basis: 65%;
 		}
 		&.d-75 {
-				@include flex-basis(74%);
+				flex-basis: 74%;
 		}
-		&.d-100 {	
-				@include flex-basis(100%);
+		&.d-100 {
+				flex-basis: 100%;
 		}
 	}
 }

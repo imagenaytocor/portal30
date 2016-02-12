@@ -18,7 +18,7 @@
 	}
 	& input {
 		border: 1px solid #CCC;
-		@include border-radius(.3em);
+		border-radius: .3em;
 		@include rem('font-size', 16px);
 		margin: .25em 0 0;
 		& #textoBuscar {
@@ -27,7 +27,7 @@
 	}
 	& select {
 		border: 1px solid #CCC;
-		@include border-radius(.3em);
+		border-radius: .3em;
 		@include rem('font-size', 14px);
 		margin: .25em 0 0;
 	}
@@ -52,9 +52,9 @@
 		text-transform: uppercase;
 		&:after {
 				content: "\f103";
-				display: inline-block; 
-				font-family: FontAwesome; 
-				@include rem('font-size',30px); 
+				display: inline-block;
+				font-family: FontAwesome;
+				@include rem('font-size',30px);
 				line-height: 1;
 				position: absolute;
 				right: .5em;
@@ -118,7 +118,7 @@
 		background-position: .6em .45em;
 		background-repeat: no-repeat;
 		border: none !important;
-		@include border-radius(.3em);
+		border-radius: .3em;
 		color: #FFF;
 		float: right;
 		line-height: 2;
@@ -166,9 +166,9 @@
 		&:before  {
 				content: '\f073';
 				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
+				display: inline;
+			  font-family: FontAwesome;
+			  @include rem('font-size',20px);
 			  line-height: 1;
 			  margin-right:.75em;
 		}
@@ -178,9 +178,9 @@
 		&:before  {
 				content: '\f044';
 				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
+				display: inline;
+			  font-family: FontAwesome;
+			  @include rem('font-size',20px);
 			  line-height: 1;
 			  margin-right:.75em;
 		}
@@ -191,9 +191,9 @@
 		&:before  {
 				content: '\f05a';
 				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',20px); 
+				display: inline;
+			  font-family: FontAwesome;
+			  @include rem('font-size',20px);
 			  line-height: 1;
 			  margin-right:.75em;
 		}
@@ -253,8 +253,8 @@
 			margin: .25em 0;
 			&:before {
 					content: "\f101";
-					font-family: FontAwesome; 
-					@include rem('font-size',20px); 
+					font-family: FontAwesome;
+					@include rem('font-size',20px);
 					line-height: 1;
 					padding-right: .5em;
 			}
@@ -278,19 +278,19 @@
 		}
 	}
 	& dl {
-		@include display-flex;
-		@include flex-flow(row wrap);
+		display: flex;
+		flex-flow: row wrap;
 		padding: 0;
 		& dt {
-			@include flex-basis(20%);
+			flex-basis: 20%;
 			@include rem('font-size',16px);
 		}
 		& dd {
-			@include flex-basis(75%);
-			@include align-self(flex-end);
+			flex-basis: 75%;
+			align-self: flex-end;
 			margin-bottom: .25em;
 			@include breakpoints(tablet) {
-				@include flex-basis(78%);
+				flex-basis: 78%;
 			}
 		}
 	}
@@ -490,7 +490,7 @@
 
 .lstIconos {
 	@extend %listCompNoDT;
-	
+
 	& dd[class^="fecha"] {
 			padding-left: 0;
 			text-transform: uppercase;
@@ -558,7 +558,7 @@
 			}
 		}
 	}
-	
+
 }
 
 //ListadoEntidad
@@ -575,9 +575,9 @@
 				}
 				content: '\f041';
 				cursor: pointer;
-				display: inline; 
-			  font-family: FontAwesome; 
-			  @include rem('font-size',24px); 
+				display: inline;
+			  font-family: FontAwesome;
+			  @include rem('font-size',24px);
 			  line-height: 1;
 			  margin-right:.25em;
 		}
@@ -600,15 +600,15 @@
 
 .listDosCol {
 	& ul {
-		@include display-flex;
-		@include flex-flow(row wrap);
+		display: flex;
+	  flex-flow: row wrap;
 		margin-left: 0;
 	}
 	& .listadoResultados li {
-		@include flex-basis(100%);
+		flex-basis: 100%;
 		margin: .5em 1%;
 		@include breakpoints (bigPhone) {
-			@include flex-basis(48%);
+			flex-basis: 48%;
 		}
 		& > a {
 			display: block;
@@ -635,4 +635,4 @@
 	&.lstComConEti dd[class^="nota"] {
 	    margin-left: 18%;
 	}
-} 
+}

@@ -2,13 +2,13 @@
 
 .paginaPortada.site_1382936859765 #contenido,
 .paginaPortada.site_1414721835012 #contenido {
-	@include flex-basis(100%);
+	flex-basis: 100%;
 	padding: 1.5em 3.125%;
 	width: 100%;
 	@include breakpoints(tablet){
-		@include display-flex;
-		@include flex-direction(column);
-		@include flex-wrap(no-wrap);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: no-wrap;
 	}
 }
 

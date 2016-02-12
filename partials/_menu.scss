@@ -1,9 +1,9 @@
 // menu
 
 .show-nav #caja {
-	-webkit-transform: translateX(250px);
-    -webkit-transform: translate3d(250px, 0, 0);
-    transform: translateX(250px);  
+	//-webkit-transform: translateX(250px);
+  //-webkit-transform: translate3d(250px, 0, 0);
+    transform: translateX(250px);
     transform: translate3d(250px, 0, 0);
 }
 
@@ -15,20 +15,20 @@
     left: -250px;
     background: $grisFondo;
     & ul {
-    	@include display-flex;
-    	@include flex-direction(column);
+    	display: flex;
+    	flex-direction: column;
     	@include breakpoints(desktop){
     		display: none;
-    		@include flex-direction(row);
+    		flex-direction: row;
     		height: inherit;
     		padding: .5em 0;
     		&.menuAbierto {
-    			@include display-flex;
+    			display: flex;
     		}
     	}
     		& li {
     			border-bottom: 1px solid #FFF;
-    			@include flex-grow(1);
+    			flex-grow: 1;
     			font-family: $titulos-font-family;
     			@include rem('font-size', 20px);
     			font-weight: $regular;
@@ -40,7 +40,7 @@
     			@include breakpoints(desktop){
     				border-bottom: none;
     				border-right: 1px dotted #CCC;
-    				@include flex-basis(20%);
+    				flex-basis: 20%;
     				@include rem('font-size', 15px);
     				padding: .5em 1% .5em 2%;
     				/*&:first-of-type {
@@ -69,9 +69,9 @@
     				&:after {
     							content: "\f107";
     							cursor: context-menu;
-    							display: inline-block; 
-    							font-family: FontAwesome; 
-    							@include rem('font-size',18px); 
+    							display: inline-block;
+    							font-family: FontAwesome;
+    							@include rem('font-size',18px);
     							line-height: 1;
     							margin-left: .25em;
     							position: absolute;
@@ -146,7 +146,7 @@
     }
     @include breakpoints(desktop){
     	background: $blanco;
-    	@include box-shadow(0 2px 3px 0 rgba(50, 50, 50, 0.75));
+    	box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.75);
     	height: auto;
     	left: 0;
     	margin: 0 2% 0 1.15%;
@@ -161,15 +161,15 @@
 }
 
 .toggle-subNav {
-	@include rem('font-size', 30px); 
+	@include rem('font-size', 30px);
 	position: absolute;
 	right: .3em;
 	top: .3em;
-	@include transform(rotate(90deg));
+	transform: rotate(90deg);
 	-moz-transition:0.5s all;
 	-webkit-transition:0.5s all;
 	&.abierto {
-		@include transform(rotate(-90deg));
+		transform: rotate(-90deg);
 	}
 }
 
@@ -182,10 +182,10 @@
 		top: 3.7em;
 	}
 	& ul {
-		list-style: none; 
+		list-style: none;
 	}
 	& ul.nivel1 {
-		
+
 		margin-top: .6em;
 		@include breakpoints(desktop){
 			margin-top: 0;
@@ -195,7 +195,7 @@
 		}
 			& > li {
 				@include rem('font-size', 18px);
-				float: left; 
+				float: left;
 				font-weight: $regular;
 				margin: .25em;
 				padding: 0 .25em;
@@ -203,7 +203,7 @@
 				&:first-child {
 					background-color: $blanco;
 					border: 1px solid #CCC;
-					@include border-radius(5px);
+					border-radius: 5px;
 					@include rem('font-size', 20px);
 					margin-right:.75em;
 					padding: .15em .35em;
@@ -226,7 +226,7 @@
 	}
 	& .subMenu {
 		background-color: $blanco;
-		@include box-shadow(0 2px 3px 0 rgba(50, 50, 50, 0.75));
+		box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.75);
 		display: none;
 		position: absolute;
 		left: 0;
@@ -242,16 +242,16 @@
 		margin-left: 0;
 		padding: 1em;
 		@include breakpoints(desktop){
-			@include display-flex;
-			@include flex-direction(row);
-			@include justify-content(space-start);
-			@include flex-wrap(wrap);
+			display: flex;
+			flex-direction: row;
+			justify-content: space-start;
+			flex-wrap: wrap;
 			margin-bottom: 1em;
 			& li {
 				@include rem('font-size',18px);
 				flex-shrink: 1;
 				position: relative;
-				@include flex-basis(23%); 
+				flex-basis: 23%; 
 				margin: 0 1% 1em;
 				padding: 0px 1em 1em;
 				border-right: 1px dotted $grisBorde;
@@ -301,13 +301,13 @@
 			@include offleft;
 			&:first-child {
 				left: .5em;
-				top: .5em; 
+				top: .5em;
 			}
 		}
 	}
 }
 @each $site in $sites {
 	.#{$site} .menuPrincipal {
-		@extend %menuPrincipal_site; 			
+		@extend %menuPrincipal_site;
 	}
 }

@@ -1,6 +1,6 @@
 // Use Compass
-@import "compass";
-@import "compass/css3";
+//@import "compass";
+//@import "compass/css3";
 
 // Import fonts
 @import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Roboto+Condensed:300,400);
@@ -15,7 +15,7 @@ $medium: 500;
 $base-font-family: "Helvetica", Arial, sans-serif;
 $base-font-weight: $regular;
 $base-font-size: 10px;
-$base-line-height:1.5; 
+$base-line-height:1.5;
 
 // Headings
 $titulos-font-family: "Dosis", serif;
@@ -26,7 +26,7 @@ $alt-font-family: "Roboto Condensed", sans-serif;
 
 // Citas
 
-$quote-font-family: "Georgia", serif;       
+$quote-font-family: "Georgia", serif;
 $quote-font-weight: $regular;
 $quote-font-size: 18px;
 $quote-font-style: italic;
@@ -34,10 +34,10 @@ $quote-line-height:1.5;
 
 // Prueba
 
-$prueba-font-family: "VAG Rounded W10 Black", sans-serif; 
+$prueba-font-family: "VAG Rounded W10 Black", sans-serif;
 
 // Border-radius
-$default-border-radius: 3px; 
+$default-border-radius: 3px;
 
 // Breakpoints
 $bigPhone: 30;

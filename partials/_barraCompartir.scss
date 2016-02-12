@@ -1,17 +1,17 @@
 //_barraCompartir
 
 #barraCompartir {
-	
+
 	@include breakpoints(tablet){
 		border-right: 1px dotted #CCC;
-		@include display-flex;
-		@include flex-basis(6%);
+		display: flex;
+		flex-basis: 6%;
 		margin-right: 1.5%;
 		padding-right: 1.5%;
 	}
 	& + div[class^="des"] {
 		@include breakpoints(tablet){
-			@include flex-basis(88%);
+			flex-basis: 88%;
 			padding-right: 1%;
 		}
 	}
@@ -60,7 +60,7 @@
 				left: -6px;
 				margin: 0 auto;
 				position: absolute;
-				@include transform(rotate(-45deg));
+				transform: rotate(-45deg);
 				width: 10px;
 				z-index: 10;
 				@include breakpoints(tablet){
@@ -80,13 +80,13 @@
 				color: $negro;
 				content: '\f1e0';
 				cursor: pointer;
-				display: inline-block; 
-			    font-family: FontAwesome; 
-			    @include rem('font-size',30px); 
+				display: inline-block;
+			    font-family: FontAwesome;
+			    @include rem('font-size',30px);
 			    line-height: 1;
 			    visibility: visible;
 				}
-			// Para IE	
+			// Para IE
 			/*.no-flexboxlegacy & {
 				@include rem('font-size', 14px);
 				visibility: visible;
@@ -145,5 +145,5 @@
 				content: "\f02f";
 		}
 	}
-	
+
 }

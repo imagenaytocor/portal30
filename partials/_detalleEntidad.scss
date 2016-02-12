@@ -5,9 +5,9 @@
 		width: 85%;
 	}
 	& dl {
-		@include display-flex;
-		@include flex-direction(row);
-		@include flex-wrap(wrap);
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: flex-end;
 		margin-left: 0;
 		.site_cmix & {
@@ -15,21 +15,21 @@
 		}
 	}
 	& dt {
-		@include flex-basis(25%);
+		flex-basis: 25%;
 		@include rem('font-size',16px);
 		text-align: right;
 		text-transform: uppercase;
 		margin: 0 .5em .5em 0;
 		&.codigoQR {
-			@include flex-basis(35%);
-		} 
+			flex-basis: 35%;
+		}
 		@include breakpoints(tablet){
 			@include rem('font-size',20px);
 		}
 	}
-	
+
 	& dd {
-		@include flex-basis(70%);
+		flex-basis: 70%;
 		@include rem('font-size',16px);
 		margin: 0 0 .5em 30%;
 		text-align: left;
@@ -42,7 +42,7 @@
 		}
 	}
 	& dt + dd {
-		@include flex-basis(70%);
+		flex-basis: 70%;
 		margin: 0 0 .5em .5em;
 	}
 	& > a {

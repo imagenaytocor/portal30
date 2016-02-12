@@ -8,13 +8,13 @@
 		margin-left: 0;
 	}
 	& li {
-		@include display-flex;
-		@include flex-direction(row);
-		@include flex-wrap(wrap);
-		@include justify-content(flex-end);
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
 		margin-bottom: 0;
 		&.inscripcionAbierta {
-			@include justify-content(flex-start);
+			justify-content: flex-start;
 			margin: .25em 0 .5em;
 			& a {
 				background-color: $enlace;
@@ -23,7 +23,7 @@
 						background-color: nth($a, 2);
 					}
 				}
-				@include border-radius(.3em);
+				border-radius: .3em;
 				color: $blanco;
 				@include rem('font-size', 20px);
 				margin-left: 35%;
@@ -55,46 +55,46 @@
 			margin: 0 0 .5em .5em;
 		}
 		& > p {
-			@include flex-basis(65%);
+			flex-basis: 65%;
 			text-align: left;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(68%);
+				flex-basis: 68%;
 			}
 			&.tituloInterno {
-				@include flex-basis(28%);
+				flex-basis: 28%;
 				text-align: right;
 				margin: 0 .5em .5em 0;
 				@include breakpoints(bigPhone) {
-					@include flex-basis(23%);
+					flex-basis: 23%;
 				}
 			}
 		}
 		& > div {
-			@include flex-basis(65%);
+			flex-basis: 65%;
 			margin: 0 0 .5em .5em;
 			text-align: left;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(68%);
+				flex-basis: 68%;
 			}
 		}
 		& > ul {
-			@include flex-basis(65%);
+			flex-basis: 65%;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(68%);
+				flex-basis: 68%;
 			}
 		}
 		& div {
-			@include flex-basis(65%);
+			flex-basis: 65%;
 			margin: 0 0 .5em .5em;
 			@include breakpoints(bigPhone) {
-				@include flex-basis(68%);
+				flex-basis: 68%;
 			}
 			& p {
 				margin-left: 0;
 			}
 		}
 		& li {
-			@include justify-content(flex-start);
+			justify-content: flex-start;
 		}
 	}
 	& .requisitos li {

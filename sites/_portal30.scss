@@ -7,7 +7,23 @@
 				& a {
 					&::before {
 						border:1px solid $grisBorde;
-						@include border-radius(.3em);
+						border-radius: .3em;
+					}
+				}
+				&:last-of-type {
+					& a:before {
+							color: #e18208;
+							content: "\61";
+							display: block;
+							font-family: "lse";
+							@include rem('font-size',24px);
+							font-style: normal;
+							height: 1.2em;
+							line-height: 1.2;
+							text-align: center;
+							width: 1.2em;
+						  -webkit-font-smoothing: antialiased;
+						  -moz-osx-font-smoothing: grayscale;
 					}
 				}
 			}

@@ -1,9 +1,8 @@
 //_pie.scss
 #pie {
-	@include display-flex;
-	@include flex-direction(row);
-	@include justify-content(flex-start);
-	@include flex-wrap(wrap);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
 	margin-top: 1em;
 	max-width: 80em;
 }
@@ -30,7 +29,7 @@
 		width: 71%;
 		& > li {
 			float: left;
-			margin-right: 2em; 
+			margin-right: 2em;
 			width: 42%;
 			&:last-of-type {
 				margin-right:0;
@@ -40,15 +39,14 @@
 }
 
 .enlacesPie {
-	@include flex-basis(100%);
+	flex-basis: 100%;
 	margin-top: .5em;
 	padding: 1.5625% 3.125%;
-	@include order(3);
+	order: 3;
 	@include breakpoints(tablet){
-		@include display-flex;
-		@include flex-direction(row);
-		@include justify-content(space-between);
-		@include flex-wrap(wrap);
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
 	}
 	& > div {
 		border: 1px solid $grisFondo;
@@ -60,12 +58,12 @@
 		@include breakpoints(tablet){
 			border: none;
 			border-right: 1px dotted #CCC;
-			@include flex-basis(32%);
+			flex-basis: 32%;
 			margin-bottom: 0;
 			&:last-of-type {
 				border:none;
 			}
-		}		
+		}
 	}
 	& .cajaGenerica + .cajaGenerica {
 		border-top: none;
@@ -81,9 +79,9 @@
 		text-transform: uppercase;
 		&:after {
 			content: "\f107";
-			display: inline-block; 
-			font-family: FontAwesome; 
-			@include rem('font-size',30px); 
+			display: inline-block;
+			font-family: FontAwesome;
+			@include rem('font-size',30px);
 			line-height: .75;
 			position: absolute;
 			right: .5em;
@@ -116,8 +114,8 @@
 }
 
 .cierrePie {
-	@include flex-basis(100%);
-	@include order(4);
+	flex-basis: 100%;
+	order: 4;
 	& > div {
 		padding: 3.125%;
 	}
@@ -130,9 +128,9 @@
 		text-transform: none;
 	}
 	& ul {
-		@include display-flex;
-		@include flex-direction(row);
-		@include justify-content(flex-start);
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
 	}
 	& li {
 		@include rem('font-size', 12px);
@@ -143,8 +141,8 @@
 		}
 	}
 	& .promocionContenido {
-		@include display-flex;
-		@include flex-direction(row);
+		display: flex;
+		flex-direction: row;
 		& .interiorPromocion {
 			& p {
 				@include rem('font-size', 15px);

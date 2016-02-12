@@ -13,7 +13,7 @@
 		background-color: $grisFondo;
 		margin: 0 1%;
 		padding: .25em 1%;
-		
+
 	}
 	& > div:first-of-type {
 		@include rem('font-size',14px);
@@ -41,9 +41,9 @@
 }
 
 .holder {
-		@include display-flex;
-		@include flex-direction(row);
-		@include justify-content(flex-start);
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
 		margin-bottom: 1em;
 	& > a {
 		border: 1px solid #CCC;
@@ -51,7 +51,7 @@
 		margin-bottom: 0;
 		padding: .25em .6em;
 		text-align: center;
-		
+
 		&.jp-current {
 			background-color: $enlace;
 			@each $a in $site-color {
@@ -91,7 +91,7 @@
 				background-color: $blanco;
 				margin: 0 .5%;
 				padding: 0;
-				
+
 			}
 			& > div:first-of-type {
 				@include offleft;

@@ -18,10 +18,10 @@ body {
 }
 
 ::-moz-selection {
-    background-color: (lighten($enlace, 35%));
+    background-color: tint($enlace, 35%);
     @each $a in $site-color {
     	.#{nth($a, 1)} & {
-    		background-color: (lighten(nth($a, 2), 35%));
+    		background-color: tint(nth($a, 2), 35%);
     	}
     }
     color: $enlace;
@@ -34,10 +34,10 @@ body {
 }
 
 ::selection {
-    background-color: (lighten($enlace, 35%));
+    background-color: tint($enlace, 35%);
     @each $a in $site-color {
     	.#{nth($a, 1)} & {
-    		background-color: (lighten(nth($a, 2), 35%));
+    		background-color: tint(nth($a, 2), 35%);
     	}
     }
     color: $enlace;

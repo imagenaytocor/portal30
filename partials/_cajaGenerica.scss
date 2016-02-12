@@ -23,10 +23,10 @@
 	& + & {
 		border-top: 1px solid $grisBorde;
 		padding-top: 1em;
-	}  
+	}
 	.row & + & {
 		border-top: none;
-		padding-top: 0; 
+		padding-top: 0;
 	}
 }
 
@@ -68,8 +68,8 @@
 			color: $negro;
 		}
 	}
-	
-// colCaja cajaImgTxt	
+
+// colCaja cajaImgTxt
 
 	&.colCaja {
 		background-repeat: repeat-x !important;
@@ -82,20 +82,19 @@
 }
 
 .cajaDesplegable {
-	&.cajaGenerica { 
+	&.cajaGenerica {
 		background-color: $blanco;
 		border: 1px solid $grisBorde;
 		margin-bottom: .5em;
-		@include display-flex;
-		@include flex-direction(row);
-		@include justify-content(space-between);
-		@include flex-wrap(wrap);
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
 		& .imagen {
-			@include align-self(stretch);
+			align-self: stretch;
 			background-color: $grisFondo;
-			@include justify-content(space-around);
+			justify-content: space-around;
 			margin: 0;
-			@include order(3);
+			order: 3;
 			width: auto;
 		}
 		& h3 {
@@ -118,30 +117,29 @@
 			//@include flex-basis(32%);
 		}
 		@include breakpoints(desktop){
-			@include align-items(center);
+			align-items: center;
 			//@include flex-basis(32%);
 			margin-bottom: 1em;
 			//min-height: 8em;
 		}
 		& .textoContenido {
-			@include align-items(flex-start);
-			@include flex-basis(79%);
+			align-items: flex-start;
+			flex-basis: 79%;
 			@include breakpoints(bigPhone){
-				@include flex-basis(60%);
+				flex-basis: 60%;
 			}
 			@include breakpoints(tablet){
-				@include flex-basis(70%);
+				flex-basis: 70%;
 			}
 		}
 	}
 	@include breakpoints(bigPhone){
-		@include display-flex;
-		@include flex-direction(row);
-		@include justify-content(space-between);
-		@include flex-wrap(wrap); 
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
 		& h2 {
-			@include flex-basis(100%);
-		}	
+			flex-basis: 100%;
+		}
 	}
 	& .relacionadosItem {
 		display: none;
@@ -154,12 +152,12 @@
 			padding: 0 0 0 .5em;
 			&:before {
 					content: "\f101";
-					font-family: FontAwesome; 
-					@include rem('font-size',20px); 
+					font-family: FontAwesome;
+					@include rem('font-size',20px);
 					line-height: 1;
 					padding-right: .5em;
 			}
-			
+
 		}
 		& a {
 			color: $negro;
@@ -173,7 +171,7 @@
 
 // Cajas con enlaces como las subportadas de Bibliotecas antes de DU
 
-.cajaEnlaces { 
+.cajaEnlaces {
 	background-color: $blanco;
 	border: 1px solid #CCC !important;
 	margin-bottom: .5em;
@@ -195,8 +193,8 @@
 	& li {
 		&:before {
 				content: "\f101";
-				font-family: FontAwesome; 
-				@include rem('font-size',20px); 
+				font-family: FontAwesome;
+				@include rem('font-size',20px);
 				line-height: 1;
 				padding-right: .5em;
 		}
@@ -224,7 +222,7 @@
 		@include title2-style;
 		border-bottom: 1px solid $grisBorde;
 		margin-bottom: 0.5em;
-		
+
 	}
 	& p,
 	& li {
@@ -242,7 +240,7 @@
 	margin-bottom: 1em;
 	.colCaja & + & {
 		border-top: none;
-		padding-top: .5em; 
+		padding-top: .5em;
 	}
 	& .textoContenido {
 		background-color: $blanco;
@@ -284,7 +282,7 @@
 					background-color: nth($a, 2);
 				}
 			}
-			@include border-radius(.3em);
+			border-radius: .3em;
 			color: $blanco;
 			padding: .1em 1em .1em .5em;
 			position: relative;
@@ -296,14 +294,14 @@
 						background-color: nth($a, 2);
 					}
 				}
-				@include border-radius(.15em);
+				border-radius: .15em;
 				top: 5px;
 				content: " ";
 				height: 1em;
 				right: -7px;
 				margin: 0 auto;
 				position: absolute;
-				@include transform(rotate(-45deg));
+				transform: rotate(-45deg);
 				width: 1em;
 				z-index: 10;
 			}

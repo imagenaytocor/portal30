@@ -24,11 +24,11 @@ ul.cat1nivel > li {
 	}
 	& input[type=radio] {
 		margin: 0 .5em .5em;
-		@include scale(1.25,1.25);
+		transform: scale(1.25,1.25);
 		width: 10%;
 		@include breakpoints(desktop){
 			margin: 0 0 .25em .25em;
-			@include scale(1,1);
+			transform: scale(1,1);
 		}
 	}
 	& label {
@@ -38,9 +38,9 @@ ul.cat1nivel > li {
 	}
 	& label.padrecito:after {
 			content: "\f107";
-			display: inline-block; 
-			font-family: FontAwesome; 
-			@include rem('font-size',24px); 
+			display: inline-block;
+			font-family: FontAwesome;
+			@include rem('font-size',24px);
 			line-height: 1;
 			margin-left: .25em;
 	}
@@ -76,10 +76,10 @@ ul.cat2nivel {
  			width: 50%;
  		}
 		&.catMarcada {
-			background-color: (lighten($enlace, 45%));
+			background-color: tint($enlace, 45%);
 			@each $a in $site-color {
 				.#{nth($a, 1)} & {
-					background-color: (lighten(nth($a, 2), 45%));
+					background-color: tint(nth($a, 2), 45%);
 				}
 			}
 		}
@@ -101,5 +101,5 @@ ul.cat3nivel {
 }
 
 .catMarcada {
-	
+
 }

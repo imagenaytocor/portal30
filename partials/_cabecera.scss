@@ -12,7 +12,7 @@
 	padding: .1em .2em;
 	top: 1.68em;
 	width: 93%;
-	
+
 	& a {
 		color: $blanco;
 		&:visited {
@@ -20,7 +20,7 @@
 			}
 	}
 	@include breakpoints(tablet) {
-		  
+
 		background-image: none;
 		left: .35em;
 		top: 1.68em;
@@ -28,14 +28,14 @@
 	}
 	@include breakpoints(desktop){
 		top: 1.54em;
-		width: 96%; 
+		width: 96%;
 	}
 }
 h1 {
 	@include offleft;
 	@each $site in $sites {
 		.#{$site} & {
-			@extend %h1_site;			
+			@extend %h1_site;
 		}
 	}
 }
@@ -45,16 +45,16 @@ h1 {
 	background-image: url(//estaticos.coruna.es/imagesdu/logoMovil.png);
 	background-repeat: no-repeat;
 	background-position: top left;
-	@include box-shadow(0 2px 3px 0 rgba(50, 50, 50, 0.75));
+	box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.75);
 	min-height: 100px;
 	@include breakpoints(tablet){
 		backgroundackground-image: url(//estaticos.coruna.es/imagesdu/logo.png);
 	}
 	@include breakpoints(desktop){
-		@include box-shadow(none);
+		box-shadow: none;
 		min-height: 92px;
 	}
-	
+
 }
 
 ul#idiomas {
@@ -69,7 +69,7 @@ ul#idiomas {
 		&.activo {
 			display: block;
 			border: 1px solid #CCC;
-			@include border-radius(.3em);
+			border-radius: .3em;
 			padding: .2em .5em;
 		}
 		& a {
@@ -93,7 +93,7 @@ ul#accesos {
 	@include breakpoints(desktop){
 		top: 8.5em;
 	}
-	
+
 	& li {
 		float: left;
 	}
@@ -109,15 +109,15 @@ ul#accesos {
 		&:before {
 				color: $blanco;
 				display: block;
-				font-family: FontAwesome; 
+				font-family: FontAwesome;
 				@include rem('font-size',24px);
-				font-style: normal; 
+				font-style: normal;
 				height: 1.2em;
-				line-height: 1.2;				
+				line-height: 1.2;
 				text-align: center;
 				width: 1.2em;
 		}
-		// Para IE	
+		// Para IE
 		.no-flexboxlegacy & {
 			@include rem('font-size', 14px);
 			visibility: visible;
@@ -126,7 +126,7 @@ ul#accesos {
 	& .facebook a {
 		&:before {
 			@extend %socialCabecera;
-			content: "\f09a";	
+			content: "\f09a";
 		}
 	}
 	& .twitter a {
@@ -194,7 +194,7 @@ ul#accesos {
 #buscadorCabecera {
 	& fieldset {
 		border: 1px solid #CCC;
-		@include border-radius(.3em);
+		border-radius: .3em;
 		position: absolute;
 		right: .75em;
 		top: 3.75em;
@@ -209,27 +209,27 @@ ul#accesos {
 	& label {
 		@include offleft;
 	}
-	
+
 	& input {
 		@include rem('font-size', 14px);
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	& #query-input {
 		border:  none;
-		@include border-radius(.3em 0 0 .3em);
+		border-radius: .3em 0 0 .3em;
 		float: left;
 		line-height: 2.35;
 	}
-	
+
 	& .botonEnviarBuscador {
 		background-color: $enlace;
 		background-image: url(//estaticos.coruna.es/imagesdu/lupaBuscador.png);
 		background-position: .6em .45em;
 		background-repeat: no-repeat;
 		border: none;
-		@include border-radius(0 .3em .3em 0);
+		border-radius: 0 .3em .3em 0;
 		color: transparent;
 		float: left;
 		line-height: 2.2;

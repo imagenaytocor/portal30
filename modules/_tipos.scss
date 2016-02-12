@@ -79,10 +79,10 @@
 		}
 	}
 	&:hover {
-		background-color: (lighten($enlace, 35%));
+		background-color: tint($enlace, 35%);
 		@each $a in $site-color {
 			.#{nth($a, 1)} & {
-				background-color: (lighten(nth($a, 2), 35%));
+				background-color: tint(nth($a, 2), 35%);
 			}
 		}
 		color: $enlace;
@@ -91,13 +91,13 @@
 				color: nth($a, 2);
 			}
 		}
-		
+
 	}
 	&:visited {
 		color: $enlaceVisitado;
 		@each $a in $site-color {
 			.#{nth($a, 1)} & {
-				color: (darken(nth($a, 2), 5%));
+				color: shade(nth($a, 2), 5%);
 			}
 		}
 	}
@@ -113,7 +113,7 @@
 }
 
 @mixin quote-style {
-	font-family: $quote-font-family;       
+	font-family: $quote-font-family;
 	font-weight: $quote-font-weight;
 	@include rem('font-size', 18px);
 	font-style: $quote-font-style;
